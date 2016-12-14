@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */; };
+		61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0701E01E0DE0081A820 /* ViewController.swift */; };
+		61FDB0741E01E0DE0081A820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB0721E01E0DE0081A820 /* Main.storyboard */; };
+		61FDB0771E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0751E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld */; };
+		61FDB0791E01E0DE0081A820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB0781E01E0DE0081A820 /* Assets.xcassets */; };
+		61FDB07C1E01E0DE0081A820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */; };
+		61FDB0871E01E0DE0081A820 /* ArtCisco7_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0861E01E0DE0081A820 /* ArtCisco7_0Tests.swift */; };
+		61FDB0921E01E0DF0081A820 /* ArtCisco7_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61FDB0831E01E0DE0081A820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61FDB0631E01E0DE0081A820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61FDB06A1E01E0DE0081A820;
+			remoteInfo = ArtCisco7.0;
+		};
+		61FDB08E1E01E0DF0081A820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61FDB0631E01E0DE0081A820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61FDB06A1E01E0DE0081A820;
+			remoteInfo = ArtCisco7.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCisco7.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61FDB0701E01E0DE0081A820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61FDB0731E01E0DE0081A820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61FDB0761E01E0DE0081A820 /* ArtCisco7_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtCisco7_0.xcdatamodel; sourceTree = "<group>"; };
+		61FDB0781E01E0DE0081A820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61FDB07B1E01E0DE0081A820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61FDB07D1E01E0DE0081A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61FDB0821E01E0DE0081A820 /* ArtCisco7.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtCisco7.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FDB0861E01E0DE0081A820 /* ArtCisco7_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCisco7_0Tests.swift; sourceTree = "<group>"; };
+		61FDB0881E01E0DE0081A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61FDB08D1E01E0DF0081A820 /* ArtCisco7.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtCisco7.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCisco7_0UITests.swift; sourceTree = "<group>"; };
+		61FDB0931E01E0DF0081A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61FDB0681E01E0DE0081A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB07F1E01E0DE0081A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB08A1E01E0DF0081A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61FDB0621E01E0DE0081A820 = {
+			isa = PBXGroup;
+			children = (
+				61FDB06D1E01E0DE0081A820 /* ArtCisco7.0 */,
+				61FDB0851E01E0DE0081A820 /* ArtCisco7.0Tests */,
+				61FDB0901E01E0DF0081A820 /* ArtCisco7.0UITests */,
+				61FDB06C1E01E0DE0081A820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61FDB06C1E01E0DE0081A820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */,
+				61FDB0821E01E0DE0081A820 /* ArtCisco7.0Tests.xctest */,
+				61FDB08D1E01E0DF0081A820 /* ArtCisco7.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61FDB06D1E01E0DE0081A820 /* ArtCisco7.0 */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */,
+				61FDB0701E01E0DE0081A820 /* ViewController.swift */,
+				61FDB0721E01E0DE0081A820 /* Main.storyboard */,
+				61FDB0781E01E0DE0081A820 /* Assets.xcassets */,
+				61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */,
+				61FDB07D1E01E0DE0081A820 /* Info.plist */,
+				61FDB0751E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld */,
+			);
+			path = ArtCisco7.0;
+			sourceTree = "<group>";
+		};
+		61FDB0851E01E0DE0081A820 /* ArtCisco7.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB0861E01E0DE0081A820 /* ArtCisco7_0Tests.swift */,
+				61FDB0881E01E0DE0081A820 /* Info.plist */,
+			);
+			path = ArtCisco7.0Tests;
+			sourceTree = "<group>";
+		};
+		61FDB0901E01E0DF0081A820 /* ArtCisco7.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */,
+				61FDB0931E01E0DF0081A820 /* Info.plist */,
+			);
+			path = ArtCisco7.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FDB0961E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0" */;
+			buildPhases = (
+				61FDB0671E01E0DE0081A820 /* Sources */,
+				61FDB0681E01E0DE0081A820 /* Frameworks */,
+				61FDB0691E01E0DE0081A820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtCisco7.0;
+			productName = ArtCisco7.0;
+			productReference = 61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61FDB0811E01E0DE0081A820 /* ArtCisco7.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FDB0991E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0Tests" */;
+			buildPhases = (
+				61FDB07E1E01E0DE0081A820 /* Sources */,
+				61FDB07F1E01E0DE0081A820 /* Frameworks */,
+				61FDB0801E01E0DE0081A820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61FDB0841E01E0DE0081A820 /* PBXTargetDependency */,
+			);
+			name = ArtCisco7.0Tests;
+			productName = ArtCisco7.0Tests;
+			productReference = 61FDB0821E01E0DE0081A820 /* ArtCisco7.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61FDB08C1E01E0DF0081A820 /* ArtCisco7.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FDB09C1E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0UITests" */;
+			buildPhases = (
+				61FDB0891E01E0DF0081A820 /* Sources */,
+				61FDB08A1E01E0DF0081A820 /* Frameworks */,
+				61FDB08B1E01E0DF0081A820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61FDB08F1E01E0DF0081A820 /* PBXTargetDependency */,
+			);
+			name = ArtCisco7.0UITests;
+			productName = ArtCisco7.0UITests;
+			productReference = 61FDB08D1E01E0DF0081A820 /* ArtCisco7.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61FDB0631E01E0DE0081A820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Oskar/Jake;
+				TargetAttributes = {
+					61FDB06A1E01E0DE0081A820 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					61FDB0811E01E0DE0081A820 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61FDB06A1E01E0DE0081A820;
+					};
+					61FDB08C1E01E0DF0081A820 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61FDB06A1E01E0DE0081A820;
+					};
+				};
+			};
+			buildConfigurationList = 61FDB0661E01E0DE0081A820 /* Build configuration list for PBXProject "ArtCisco7.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61FDB0621E01E0DE0081A820;
+			productRefGroup = 61FDB06C1E01E0DE0081A820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */,
+				61FDB0811E01E0DE0081A820 /* ArtCisco7.0Tests */,
+				61FDB08C1E01E0DF0081A820 /* ArtCisco7.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61FDB0691E01E0DE0081A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB07C1E01E0DE0081A820 /* LaunchScreen.storyboard in Resources */,
+				61FDB0791E01E0DE0081A820 /* Assets.xcassets in Resources */,
+				61FDB0741E01E0DE0081A820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB0801E01E0DE0081A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB08B1E01E0DF0081A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61FDB0671E01E0DE0081A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB0771E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld in Sources */,
+				61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */,
+				61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB07E1E01E0DE0081A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB0871E01E0DE0081A820 /* ArtCisco7_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB0891E01E0DF0081A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB0921E01E0DF0081A820 /* ArtCisco7_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61FDB0841E01E0DE0081A820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */;
+			targetProxy = 61FDB0831E01E0DE0081A820 /* PBXContainerItemProxy */;
+		};
+		61FDB08F1E01E0DF0081A820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */;
+			targetProxy = 61FDB08E1E01E0DF0081A820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61FDB0721E01E0DE0081A820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FDB0731E01E0DE0081A820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FDB07B1E01E0DE0081A820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61FDB0941E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61FDB0951E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61FDB0971E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArtCisco7.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		61FDB0981E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArtCisco7.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		61FDB09A1E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtCisco7.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtCisco7.0.app/ArtCisco7.0";
+			};
+			name = Debug;
+		};
+		61FDB09B1E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtCisco7.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtCisco7.0.app/ArtCisco7.0";
+			};
+			name = Release;
+		};
+		61FDB09D1E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ArtCisco7.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArtCisco7.0;
+			};
+			name = Debug;
+		};
+		61FDB09E1E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ArtCisco7.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArtCisco7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61FDB0661E01E0DE0081A820 /* Build configuration list for PBXProject "ArtCisco7.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB0941E01E0DF0081A820 /* Debug */,
+				61FDB0951E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61FDB0961E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB0971E01E0DF0081A820 /* Debug */,
+				61FDB0981E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61FDB0991E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB09A1E01E0DF0081A820 /* Debug */,
+				61FDB09B1E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61FDB09C1E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB09D1E01E0DF0081A820 /* Debug */,
+				61FDB09E1E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61FDB0751E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61FDB0761E01E0DE0081A820 /* ArtCisco7_0.xcdatamodel */,
+			);
+			currentVersion = 61FDB0761E01E0DE0081A820 /* ArtCisco7_0.xcdatamodel */;
+			path = ArtCisco7_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61FDB0631E01E0DE0081A820 /* Project object */;
+}
