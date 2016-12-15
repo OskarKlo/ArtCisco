@@ -13,10 +13,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var signInButton: UIButton!
+    @IBOutlet weak var forgotButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBAction func forgotPasswordButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "forgotPasswordSegue", sender: self)
+    }
+    
 
 
 }

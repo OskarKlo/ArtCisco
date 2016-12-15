@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61EDE2061E03357900386A57 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EDE2051E03357900386A57 /* ForgotViewController.swift */; };
 		61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */; };
 		61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0701E01E0DE0081A820 /* ViewController.swift */; };
 		61FDB0741E01E0DE0081A820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB0721E01E0DE0081A820 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61EDE2051E03357900386A57 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 		61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCisco7.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61FDB0701E01E0DE0081A820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */,
 				61FDB0701E01E0DE0081A820 /* ViewController.swift */,
 				61FDB0721E01E0DE0081A820 /* Main.storyboard */,
+				61EDE2051E03357900386A57 /* ForgotViewController.swift */,
 				61FDB0781E01E0DE0081A820 /* Assets.xcassets */,
 				61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */,
 				61FDB07D1E01E0DE0081A820 /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61FDB0771E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld in Sources */,
+				61EDE2061E03357900386A57 /* ForgotViewController.swift in Sources */,
 				61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */,
 				61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				61FDB0981E01E0DF0081A820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61FDB0991E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				61FDB09B1E01E0DF0081A820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61FDB09C1E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				61FDB09E1E01E0DF0081A820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

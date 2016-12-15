@@ -9,6 +9,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Forgot View Controller-->
+        <scene sceneID="0r7-at-wLH">
+            <objects>
+                <viewController id="sq5-Dl-i7w" customClass="ForgotViewController" customModule="ArtCisco7_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Luh-EV-6WZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="fqk-t4-yri"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ecN-AP-yZf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUH-kY-1T7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="-533"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -56,13 +74,25 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.53794089672403334" green="0.17011467006842462" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V83-Fb-ngz">
+                                <rect key="frame" x="59" y="629" width="256" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Forgot password?">
+                                    <color key="titleColor" red="0.93710273691917545" green="0.93276953109424376" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPasswordButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rg5-Py-DEY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="u87-sU-Rh2" id="3cu-CC-lwb"/>
+                        <outlet property="forgotButton" destination="V83-Fb-ngz" id="GOf-QP-VL9"/>
                         <outlet property="passwordTextField" destination="Hhh-MS-fSc" id="LIA-3G-wn6"/>
                         <outlet property="signInButton" destination="hgx-bP-RYV" id="eVE-fd-gi7"/>
+                        <segue destination="sq5-Dl-i7w" kind="show" identifier="forgotPasswordSegue" id="ENy-MT-1cO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
