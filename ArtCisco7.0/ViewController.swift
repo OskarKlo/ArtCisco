@@ -23,6 +23,9 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "forgotPasswordSegue", sender: self)
     }
     
+    @IBAction func signInButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "homePageSegue", sender: self)
+    }
 
 
 }

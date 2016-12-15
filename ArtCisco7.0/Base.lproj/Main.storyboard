@@ -70,6 +70,9 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="0.97166375172269337" green="0.956294896069245" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EAE-St-ZoZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.53794089672403334" green="0.17011467006842462" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -93,14 +96,63 @@
                         <outlet property="passwordTextField" destination="Hhh-MS-fSc" id="LIA-3G-wn6"/>
                         <outlet property="signInButton" destination="hgx-bP-RYV" id="eVE-fd-gi7"/>
                         <segue destination="sq5-Dl-i7w" kind="show" identifier="forgotPasswordSegue" id="ENy-MT-1cO"/>
+                        <segue destination="ELI-PQ-s4y" kind="show" identifier="homePageSegue" id="s6y-ZG-Dth"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--Home View Controller-->
+        <scene sceneID="cV7-WY-UMk">
+            <objects>
+                <viewController id="ELI-PQ-s4y" customClass="HomeViewController" customModule="ArtCisco7_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uv5-Ht-1Tl"/>
+                        <viewControllerLayoutGuide type="bottom" id="ShP-Jc-feS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hR2-v8-aNP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="279-Ot-LCk">
+                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rqj-Mf-P1D">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem title="" image="home-7" id="9m6-tc-Sje"/>
+                                    <tabBarItem title="" image="heart-7" id="zZ4-5M-hqv"/>
+                                    <tabBarItem title="" image="compass-point-7" id="7He-ws-jzY"/>
+                                    <tabBarItem title="" image="list-fat-7" id="iHT-jn-su5"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="categoryTabBarItem" destination="iHT-jn-su5" id="r0q-7F-JzQ"/>
+                        <outlet property="homeTabBarItem" destination="9m6-tc-Sje" id="iIt-uX-JtL"/>
+                        <outlet property="mapTabBarItem" destination="7He-ws-jzY" id="D66-3H-fKY"/>
+                        <outlet property="popularTabBarItem" destination="zZ4-5M-hqv" id="4Zk-sP-uAI"/>
+                        <outlet property="tabBar" destination="Rqj-Mf-P1D" id="C9C-Uo-yVd"/>
+                        <outlet property="tableView" destination="279-Ot-LCk" id="RjW-gv-CNh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXr-Hc-35w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968.79999999999995" y="138.98050974512745"/>
+        </scene>
     </scenes>
     <resources>
         <image name="SingUpPageImage2" width="610" height="1001"/>
+        <image name="compass-point-7" width="30" height="30"/>
+        <image name="heart-7" width="30" height="30"/>
+        <image name="home-7" width="30" height="30"/>
+        <image name="list-fat-7" width="30" height="30"/>
     </resources>
 </document>
