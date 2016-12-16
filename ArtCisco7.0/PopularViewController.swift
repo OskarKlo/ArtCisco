@@ -24,4 +24,6 @@ class PopularViewController: UIViewController {
     @IBAction func homeTabButton(_ sender: Any) {
         self.performSegue(withIdentifier: "popularToHomeSegue", sender: self)
     }
+    @IBAction func categoryTabButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "popularToCategorySegue", sender: self)}
 }

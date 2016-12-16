@@ -381,7 +381,11 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem image="compass-point-7" id="h7m-pT-cCx"/>
-                                    <barButtonItem image="list-fat-7" id="BEQ-dL-28w"/>
+                                    <barButtonItem image="list-fat-7" id="BEQ-dL-28w">
+                                        <connections>
+                                            <action selector="categoryTabButton:" destination="ELI-PQ-s4y" id="kgP-Qn-n7r"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem image="circle-user-7" id="Jy2-da-OiK"/>
                                 </items>
                             </toolbar>
@@ -398,11 +402,67 @@
                         <outlet property="tableView" destination="279-Ot-LCk" id="RjW-gv-CNh"/>
                         <outlet property="toolBar" destination="PDg-TL-SPO" id="lHO-FX-GNE"/>
                         <segue destination="cbH-LC-LeG" kind="show" identifier="homeToPopularSegue" id="Y8u-77-65Q"/>
+                        <segue destination="gyU-I5-xdZ" kind="show" identifier="homeToCategorySegue" id="Aqf-hy-tx0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eXr-Hc-35w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="968.79999999999995" y="138.98050974512745"/>
+        </scene>
+        <!--Category Table View Controller-->
+        <scene sceneID="B7z-vZ-6sz">
+            <objects>
+                <tableViewController id="gyU-I5-xdZ" customClass="CategoryTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="y6e-6t-6gz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <toolbar key="tableFooterView" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="IKH-Bt-cDj">
+                            <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <items>
+                                <barButtonItem title="Item" id="2V2-7f-9uh"/>
+                            </items>
+                        </toolbar>
+                        <sections>
+                            <tableViewSection id="Bvv-g4-oNV">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9w7-lR-K2K">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9w7-lR-K2K" id="vAR-yy-77x">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Cj0-4D-AZR">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cj0-4D-AZR" id="8gz-QS-FbO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="U3c-p5-puh">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U3c-p5-puh" id="NFL-ID-CKe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="gyU-I5-xdZ" id="WhK-9A-yBX"/>
+                            <outlet property="delegate" destination="gyU-I5-xdZ" id="Q1X-JK-aLy"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wMk-Uz-FON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1855" y="-629"/>
         </scene>
         <!--Popular View Controller-->
         <scene sceneID="LgZ-G0-RV2">
@@ -427,7 +487,11 @@
                                     </barButtonItem>
                                     <barButtonItem image="heart-7" id="LGo-5H-GBF"/>
                                     <barButtonItem image="compass-point-7" id="ikP-Te-Cck"/>
-                                    <barButtonItem image="list-fat-7" id="BHf-zU-AbT"/>
+                                    <barButtonItem image="list-fat-7" id="BHf-zU-AbT">
+                                        <connections>
+                                            <action selector="categoryTabButton:" destination="cbH-LC-LeG" id="ieX-YG-VC9"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem image="circle-user-7" id="KpD-ny-QCd"/>
                                 </items>
                             </toolbar>
@@ -442,6 +506,7 @@
                         <outlet property="profileTabButton" destination="KpD-ny-QCd" id="Klp-Gl-jEf"/>
                         <outlet property="toolBar" destination="NaS-N0-eXQ" id="Z8Q-Ur-xoW"/>
                         <segue destination="ELI-PQ-s4y" kind="show" identifier="popularToHomeSegue" id="BXh-5P-zOp"/>
+                        <segue destination="gyU-I5-xdZ" kind="show" identifier="popularToCategorySegue" id="QUr-SP-BMm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lh8-4f-FSV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -463,5 +528,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="BXh-5P-zOp"/>
+        <segue reference="QUr-SP-BMm"/>
     </inferredMetricsTieBreakers>
 </document>
