@@ -212,7 +212,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="279-Ot-LCk">
-                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="595"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -359,17 +359,6 @@
                                 </prototypes>
                                 <sections/>
                             </tableView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6bV-pG-a4z">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem tag="1" title="" image="home-7" id="r5P-sW-YyC"/>
-                                    <tabBarItem tag="2" title="" image="heart-7" id="z7j-tU-oI0"/>
-                                    <tabBarItem tag="3" title="" image="compass-point-7" id="Air-Sk-p86"/>
-                                    <tabBarItem tag="4" title="" image="list-fat-7" id="Ll9-Yy-HJN"/>
-                                </items>
-                            </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fow-bc-G6U">
                                 <rect key="frame" x="0.0" y="0.0" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -381,12 +370,34 @@
                                     <action selector="settingsButton:" destination="ELI-PQ-s4y" eventType="touchUpInside" id="gC4-Tg-Qw1"/>
                                 </connections>
                             </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PDg-TL-SPO">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem image="home-7" id="OnP-Xq-5F8"/>
+                                    <barButtonItem image="heart-7" id="ulb-HK-ajx">
+                                        <connections>
+                                            <action selector="popularTabButton:" destination="ELI-PQ-s4y" id="1aM-ZZ-rLM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem image="compass-point-7" id="h7m-pT-cCx"/>
+                                    <barButtonItem image="list-fat-7" id="BEQ-dL-28w"/>
+                                    <barButtonItem image="circle-user-7" id="Jy2-da-OiK"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="categoryTabButton" destination="BEQ-dL-28w" id="8j7-wr-pW1"/>
+                        <outlet property="homeTabButton" destination="OnP-Xq-5F8" id="twA-Gg-xNB"/>
+                        <outlet property="mapTabButton" destination="h7m-pT-cCx" id="SuP-tu-706"/>
+                        <outlet property="popularTabButton" destination="ulb-HK-ajx" id="Bvg-qW-WyJ"/>
+                        <outlet property="profileTabButton" destination="Jy2-da-OiK" id="PbP-YL-3tL"/>
                         <outlet property="settingsButton" destination="fow-bc-G6U" id="R0e-rl-L0d"/>
                         <outlet property="tableView" destination="279-Ot-LCk" id="RjW-gv-CNh"/>
+                        <outlet property="toolBar" destination="PDg-TL-SPO" id="lHO-FX-GNE"/>
+                        <segue destination="cbH-LC-LeG" kind="show" identifier="homeToPopularSegue" id="Y8u-77-65Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eXr-Hc-35w" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -405,20 +416,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEn-Ng-pZe">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NaS-N0-eXQ">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem title="" image="home-7" id="HlH-6P-ihz"/>
-                                    <tabBarItem title="" image="heart-7" id="ihr-JW-UVO"/>
-                                    <tabBarItem title="" image="compass-point-7" id="75U-L7-Iih"/>
-                                    <tabBarItem title="" image="list-fat-7" id="qdx-94-ZeL"/>
+                                    <barButtonItem image="home-7" id="x2j-PS-lU2">
+                                        <connections>
+                                            <action selector="homeTabButton:" destination="cbH-LC-LeG" id="SSf-aI-qFj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem image="heart-7" id="LGo-5H-GBF"/>
+                                    <barButtonItem image="compass-point-7" id="ikP-Te-Cck"/>
+                                    <barButtonItem image="list-fat-7" id="BHf-zU-AbT"/>
+                                    <barButtonItem image="circle-user-7" id="KpD-ny-QCd"/>
                                 </items>
-                            </tabBar>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="categoryTabButton" destination="BHf-zU-AbT" id="oMd-Da-dUW"/>
+                        <outlet property="homeTabButton" destination="x2j-PS-lU2" id="DVm-aJ-KoR"/>
+                        <outlet property="mapTabButton" destination="ikP-Te-Cck" id="Sbb-DU-vpc"/>
+                        <outlet property="popularTabButton" destination="LGo-5H-GBF" id="srl-bV-Kvz"/>
+                        <outlet property="profileTabButton" destination="KpD-ny-QCd" id="Klp-Gl-jEf"/>
+                        <outlet property="toolBar" destination="NaS-N0-eXQ" id="Z8Q-Ur-xoW"/>
+                        <segue destination="ELI-PQ-s4y" kind="show" identifier="popularToHomeSegue" id="BXh-5P-zOp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lh8-4f-FSV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -431,12 +455,13 @@
         <image name="SingUpPageImage2" width="610" height="1001"/>
         <image name="Tribal Warrior" width="1024" height="768"/>
         <image name="WarAndPeace" width="1024" height="768"/>
+        <image name="circle-user-7" width="30" height="30"/>
         <image name="compass-point-7" width="30" height="30"/>
         <image name="heart-7" width="30" height="30"/>
         <image name="home-7" width="30" height="30"/>
         <image name="list-fat-7" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WLc-Hg-QZr"/>
+        <segue reference="BXh-5P-zOp"/>
     </inferredMetricsTieBreakers>
 </document>

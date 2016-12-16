@@ -12,7 +12,16 @@ import UIKit
 
 class PopularViewController: UIViewController {
     
+    @IBOutlet weak var toolBar: UIToolbar!
+    @IBOutlet weak var homeTabButton: UIBarButtonItem!
+    @IBOutlet weak var popularTabButton: UIBarButtonItem!
+    @IBOutlet weak var mapTabButton: UIBarButtonItem!
+    @IBOutlet weak var categoryTabButton: UIBarButtonItem!
+    @IBOutlet weak var profileTabButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    @IBAction func homeTabButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "popularToHomeSegue", sender: self)
     }
 }
