@@ -13,6 +13,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var settingsButton: UIButton!
     @IBOutlet weak var tabBar: UITabBar!
     @IBOutlet weak var categoryTabBarItem: UITabBarItem!
     @IBOutlet weak var mapTabBarItem: UITabBarItem!
