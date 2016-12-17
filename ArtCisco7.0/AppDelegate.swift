@@ -11,6 +11,7 @@ import CoreData
 
 //import Firebase
 import Firebase
+import FBSDKLoginKit
 
 
 @UIApplicationMain
@@ -24,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //configure firebase
         FIRApp.configure()
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+
         return true
     }
 
@@ -43,6 +46,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        FBSDKAppEvents.activateApp()
+
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
