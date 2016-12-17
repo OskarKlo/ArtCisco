@@ -31,11 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
+    @nonobjc func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
         -> Bool {
-            return GIDSignIn.sharedInstance().handle(url,
-                                                        sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
-                                                        annotation: [:])
+            return GIDSignIn.sharedInstance().handle(url,sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,annotation: [:])
     }
 
 func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
@@ -51,8 +49,7 @@ func application(_ application: UIApplication, open url: URL, sourceApplication:
         }
         
         return FBSDKApplicationDelegate.sharedInstance().application(app, open: url,
-                                                                     sourceApplication: sourceApplication,
-                                                                     annotation: annotation)
+    sourceApplication: sourceApplication,annotation: annotation)
         
     }
 

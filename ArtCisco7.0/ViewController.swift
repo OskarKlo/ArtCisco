@@ -44,7 +44,7 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate, GIDSignInDelega
         print("User Logged Out")
     }
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-        if error = error {
+        if (error) != nil {
             print(error.localizedDescription)
             return
         }
@@ -53,14 +53,14 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate, GIDSignInDelega
         
         FIRAuth.auth()?.signIn(with: credential, completion: { (user, error) in
             if (error) != nil {
-                print(error?.localizedDescription)
+                print(error?.localizedDescription ?? <#default value#>)
                 return
             }
             print("User Logged in w/Google")
         })
     }
     func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
-        if error = error {
+        if (error) != nil {
             print(error.localizedDescription)
             return
         }
