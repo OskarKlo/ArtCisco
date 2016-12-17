@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var signUpButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBAction func signUpButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "registrationSegue", sender: self)
+    }
 
 }
 
