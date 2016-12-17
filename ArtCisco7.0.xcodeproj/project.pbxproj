@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51929BA11E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
+		51929BA21E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
+		51929BA31E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
+		57D66B3012D0B9DDBD27F4F8 /* Pods_ArtCisco7_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */; };
 		61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */; };
 		61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0701E01E0DE0081A820 /* ViewController.swift */; };
 		61FDB0741E01E0DE0081A820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB0721E01E0DE0081A820 /* Main.storyboard */; };
@@ -15,6 +19,8 @@
 		61FDB07C1E01E0DE0081A820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */; };
 		61FDB0871E01E0DE0081A820 /* ArtCisco7_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0861E01E0DE0081A820 /* ArtCisco7_0Tests.swift */; };
 		61FDB0921E01E0DF0081A820 /* ArtCisco7_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */; };
+		9444A850995F6E17E6D1A8F9 /* Pods_ArtCisco7_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E151129A8DB568733583227D /* Pods_ArtCisco7_0Tests.framework */; };
+		ECEF340B7A69A5DE8E0DF977 /* Pods_ArtCisco7_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB92186F25136E453204F237 /* Pods_ArtCisco7_0UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0.release.xcconfig"; sourceTree = "<group>"; };
+		4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		51929BA01E04C63100F1C208 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.release.xcconfig"; sourceTree = "<group>"; };
 		61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCisco7.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61FDB0701E01E0DE0081A820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		61FDB08D1E01E0DF0081A820 /* ArtCisco7.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtCisco7.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCisco7_0UITests.swift; sourceTree = "<group>"; };
 		61FDB0931E01E0DF0081A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F84ED188AC633DF25D1ECB2 /* Pods-ArtCisco7.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A03DE2110BF7FC812AB368 /* Pods-ArtCisco7.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB92186F25136E453204F237 /* Pods_ArtCisco7_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151129A8DB568733583227D /* Pods_ArtCisco7_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F334F5061E31AD07C93FA277 /* Pods-ArtCisco7.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D66B3012D0B9DDBD27F4F8 /* Pods_ArtCisco7_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9444A850995F6E17E6D1A8F9 /* Pods_ArtCisco7_0Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECEF340B7A69A5DE8E0DF977 /* Pods_ArtCisco7_0UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				61FDB0851E01E0DE0081A820 /* ArtCisco7.0Tests */,
 				61FDB0901E01E0DF0081A820 /* ArtCisco7.0UITests */,
 				61FDB06C1E01E0DE0081A820 /* Products */,
+				CAC0119156B0DFFB1438241C /* Pods */,
+				F8FE904FE96171068ECE413B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,7 @@
 			children = (
 				61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */,
 				61FDB0701E01E0DE0081A820 /* ViewController.swift */,
+				51929BA01E04C63100F1C208 /* GoogleService-Info.plist */,
 				61FDB0721E01E0DE0081A820 /* Main.storyboard */,
 				61FDB0781E01E0DE0081A820 /* Assets.xcassets */,
 				61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */,
@@ -128,6 +150,29 @@
 			path = ArtCisco7.0UITests;
 			sourceTree = "<group>";
 		};
+		CAC0119156B0DFFB1438241C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F84ED188AC633DF25D1ECB2 /* Pods-ArtCisco7.0.debug.xcconfig */,
+				1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */,
+				F334F5061E31AD07C93FA277 /* Pods-ArtCisco7.0Tests.debug.xcconfig */,
+				4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */,
+				C6A03DE2110BF7FC812AB368 /* Pods-ArtCisco7.0UITests.debug.xcconfig */,
+				595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8FE904FE96171068ECE413B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */,
+				E151129A8DB568733583227D /* Pods_ArtCisco7_0Tests.framework */,
+				DB92186F25136E453204F237 /* Pods_ArtCisco7_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FDB0961E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0" */;
 			buildPhases = (
+				7FA0955519CC4F85806472E0 /* [CP] Check Pods Manifest.lock */,
 				61FDB0671E01E0DE0081A820 /* Sources */,
 				61FDB0681E01E0DE0081A820 /* Frameworks */,
 				61FDB0691E01E0DE0081A820 /* Resources */,
+				58E0CF953ED054A4B261CFF1 /* [CP] Embed Pods Frameworks */,
+				20E94BA3C168B1D1CA9C97D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FDB0991E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0Tests" */;
 			buildPhases = (
+				7D860FA4779CAC1D1CF0EE85 /* [CP] Check Pods Manifest.lock */,
 				61FDB07E1E01E0DE0081A820 /* Sources */,
 				61FDB07F1E01E0DE0081A820 /* Frameworks */,
 				61FDB0801E01E0DE0081A820 /* Resources */,
+				B3584E9CD1C9C73BE127E6FE /* [CP] Embed Pods Frameworks */,
+				1FA0F4A142A7ACDF42079753 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61FDB09C1E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0UITests" */;
 			buildPhases = (
+				70D4FCBCA64FE1C416EB001B /* [CP] Check Pods Manifest.lock */,
 				61FDB0891E01E0DF0081A820 /* Sources */,
 				61FDB08A1E01E0DF0081A820 /* Frameworks */,
 				61FDB08B1E01E0DF0081A820 /* Resources */,
+				06463375C5DAA3AF99FE4169 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61FDB07C1E01E0DE0081A820 /* LaunchScreen.storyboard in Resources */,
+				51929BA11E04C63100F1C208 /* GoogleService-Info.plist in Resources */,
 				61FDB0791E01E0DE0081A820 /* Assets.xcassets in Resources */,
 				61FDB0741E01E0DE0081A820 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51929BA21E04C63100F1C208 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +307,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51929BA31E04C63100F1C208 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06463375C5DAA3AF99FE4169 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA0F4A142A7ACDF42079753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20E94BA3C168B1D1CA9C97D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E0CF953ED054A4B261CFF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D4FCBCA64FE1C416EB001B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D860FA4779CAC1D1CF0EE85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA0955519CC4F85806472E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3584E9CD1C9C73BE127E6FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61FDB0671E01E0DE0081A820 /* Sources */ = {
@@ -412,6 +591,7 @@
 		};
 		61FDB0971E01E0DF0081A820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F84ED188AC633DF25D1ECB2 /* Pods-ArtCisco7.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArtCisco7.0/Info.plist;
@@ -424,6 +604,7 @@
 		};
 		61FDB0981E01E0DF0081A820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArtCisco7.0/Info.plist;
@@ -436,6 +617,7 @@
 		};
 		61FDB09A1E01E0DF0081A820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F334F5061E31AD07C93FA277 /* Pods-ArtCisco7.0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +632,7 @@
 		};
 		61FDB09B1E01E0DF0081A820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +647,7 @@
 		};
 		61FDB09D1E01E0DF0081A820 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A03DE2110BF7FC812AB368 /* Pods-ArtCisco7.0UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ArtCisco7.0UITests/Info.plist;
@@ -477,6 +661,7 @@
 		};
 		61FDB09E1E01E0DF0081A820 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ArtCisco7.0UITests/Info.plist;
