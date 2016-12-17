@@ -52,6 +52,7 @@
 		61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		61BC1E221E04FD8000AB3752 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		61BC1E241E0501A400AB3752 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		61BC1E261E050A9000AB3752 /* ArtCisco-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtCisco-Bridging-Header.h"; sourceTree = "<group>"; };
 		61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCisco7.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61FDB0701E01E0DE0081A820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */,
+				61BC1E261E050A9000AB3752 /* ArtCisco-Bridging-Header.h */,
 				61FDB0701E01E0DE0081A820 /* ViewController.swift */,
 				51929BA01E04C63100F1C208 /* GoogleService-Info.plist */,
 				61FDB0721E01E0DE0081A820 /* Main.storyboard */,

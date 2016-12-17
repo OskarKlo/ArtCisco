@@ -156,6 +156,11 @@
                                             <action selector="signUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b3z-mq-Bsm"/>
                                         </connections>
                                     </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AAV-8C-CAk" customClass="GIDSignInButton">
+                                        <rect key="frame" x="8" y="8" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.56529347836070376" green="0.018534193568119139" blue="1" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
                             </view>

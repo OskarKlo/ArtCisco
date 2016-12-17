@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import GoogleSignIn
 
 //import Firebase
 import Firebase
@@ -29,6 +30,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         return true
     }
+    
+    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
+        -> Bool {
+            return GIDSignIn.sharedInstance().handle(url,
+                                                        sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+                                                        annotation: [:])
+    }
+
+func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+    return GIDSignIn.sharedInstance().handle(url,
+                                                sourceApplication: sourceApplication,
+                                                annotation: annotation)
+    }
+    
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         guard let sourceApplication = options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
             let annotation = options[UIApplicationOpenURLOptionsKey.annotation] else {
