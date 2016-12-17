@@ -10,8 +10,11 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var signUpButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +24,14 @@ class ViewController: UIViewController {
     @IBAction func signUpButton(_ sender: Any) {
         self.performSegue(withIdentifier: "registrationSegue", sender: self)
     }
-
+    
+    
+    @IBAction func signInAction(_ sender: Any) {
+        FIRApp.configure()
+        FIRAuth.auth()?.signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+            // sign in
+            self.performSegue(withIdentifier: "signInUserSegue", sender: self)
+        }
+    }
 }
 
