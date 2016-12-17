@@ -46,6 +46,7 @@
 /* Begin PBXFileReference section */
 		1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0.release.xcconfig"; sourceTree = "<group>"; };
 		4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5180A2921E05B730009B9B99 /* ArtCisco7.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtCisco7.0.entitlements; sourceTree = "<group>"; };
 		51929BA01E04C63100F1C208 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 		61FDB06D1E01E0DE0081A820 /* ArtCisco7.0 */ = {
 			isa = PBXGroup;
 			children = (
+				5180A2921E05B730009B9B99 /* ArtCisco7.0.entitlements */,
 				61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */,
 				61FDB0701E01E0DE0081A820 /* ViewController.swift */,
 				51929BA01E04C63100F1C208 /* GoogleService-Info.plist */,
@@ -261,7 +263,13 @@
 				TargetAttributes = {
 					61FDB06A1E01E0DE0081A820 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CEJB5SCP4H;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					61FDB0811E01E0DE0081A820 = {
 						CreatedOnToolsVersion = 8.1;
@@ -624,6 +632,8 @@
 			baseConfigurationReference = 9F84ED188AC633DF25D1ECB2 /* Pods-ArtCisco7.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtCisco7.0/ArtCisco7.0.entitlements;
+				DEVELOPMENT_TEAM = CEJB5SCP4H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
@@ -650,6 +660,8 @@
 			baseConfigurationReference = 1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtCisco7.0/ArtCisco7.0.entitlements;
+				DEVELOPMENT_TEAM = CEJB5SCP4H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
