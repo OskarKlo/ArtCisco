@@ -4,21 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GTMOAuth2.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>GTMSessionFetcher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>GoogleToolboxForMac.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-ArtCisco7.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,27 +27,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57EDD4F6D6A96DB0CEA6D440517C7455</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>681BE6E3D02A43F9BA63777AC435C8FD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>7242AC297675823F5AD1E27B184E9CFB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B1C4AAFAF49036C7007633DAA3C806AD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F05BBF0ABCBAB1D55C2FE0C052A8CF62</key>
+		<key>D87CD745BBE11DC957F2083522020A01</key>
 		<dict>
 			<key>primary</key>
 			<true/>

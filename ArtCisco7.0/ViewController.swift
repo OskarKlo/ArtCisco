@@ -10,9 +10,9 @@ import UIKit
 import Firebase
 import FirebaseAuth
 import FBSDKLoginKit
-import GoogleSignIn
 
-class ViewController: UIViewController,FBSDKLoginButtonDelegate, GIDSignInDelegate, GIDSignInUIDelegate {
+
+class ViewController: UIViewController,FBSDKLoginButtonDelegate {
 
     
     @IBOutlet weak var passwordTextField: UITextField!
@@ -29,9 +29,6 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate, GIDSignInDelega
         self.loginButton.delegate = self;
         self.view.addSubview(loginButton)
         
-        GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.cliendID
-        GIDSignIn.sharedInstance().delegate = self
-        GIDSignIn.sharedInstance().uiDelegate = self
     }
     
     @IBAction func signUpButton(_ sender: Any) {
@@ -43,35 +40,14 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate, GIDSignInDelega
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("User Logged Out")
     }
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-        if (error) != nil {
-            print(error.localizedDescription)
-            return
-        }
-        let authentication = user.authentication
-        let credential = FIRGoogleAuthProvider.credential(withIDToken: (authentication?.idToken)!, accessToken: (authentication?.accessToken)!)
-        
-        FIRAuth.auth()?.signIn(with: credential, completion: { (user, error) in
-            if (error) != nil {
-                print(error?.localizedDescription ?? <#default value#>)
-                return
-            }
-            print("User Logged in w/Google")
-        })
-    }
-    func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
-        if (error) != nil {
-            print(error.localizedDescription)
-            return
-        }
-            try! FIRAuth.auth()!.signOut()
-    }
     
     func signInAction(_ sender: Any) {
         FIRAuth.auth()?.signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
             // sign in
             self.performSegue(withIdentifier: "signInUserSegue", sender: self)
         }
+        
+        
     
         
     }

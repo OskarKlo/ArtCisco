@@ -8,7 +8,6 @@ target 'ArtCisco7.0' do
   # Pods for ArtCisco7.0
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-  pod 'GoogleSignIn'
 
   target 'ArtCisco7.0Tests' do
     inherit! :search_paths
