@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GeoFire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ArtCisco7.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -21,6 +26,27 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>7908849B370564D3342427B24CCD92B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B530C864359CB31F3B64B92725FA21F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5CC48BE6763ADB66FB37E7D0EC86D97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB8825AE5692F4BB55A8E38AD319F264</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

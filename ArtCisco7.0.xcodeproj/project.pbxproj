@@ -1,1650 +1,803 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>06463375C5DAA3AF99FE4169</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>1674037CB170F9A8A66F4C56</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ArtCisco7.0.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FA0F4A142A7ACDF42079753</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>20E94BA3C168B1D1CA9C97D5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>4253E0272776A30B7EF0A787</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ArtCisco7.0Tests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5180A2921E05B730009B9B99</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.entitlements</string>
-			<key>path</key>
-			<string>ArtCisco7.0.entitlements</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51929BA01E04C63100F1C208</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GoogleService-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51929BA11E04C63100F1C208</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51929BA01E04C63100F1C208</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51929BA21E04C63100F1C208</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51929BA01E04C63100F1C208</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51929BA31E04C63100F1C208</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51929BA01E04C63100F1C208</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>56A591E73D3AAAB34E71A5C1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ArtCisco7_0.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>57D66B3012D0B9DDBD27F4F8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>56A591E73D3AAAB34E71A5C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>58E0CF953ED054A4B261CFF1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>595886C490DF6BE75FC15B95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ArtCisco7.0UITests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61BC1E201E04CDD000AB3752</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RegistrationViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61BC1E211E04CDD000AB3752</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61BC1E201E04CDD000AB3752</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61EA10881E05ABA200210503</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FBSDKLoginKit.framework</string>
-			<key>path</key>
-			<string>FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61EA10891E05ABA200210503</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61EA10881E05ABA200210503</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61EA108A1E05ABA900210503</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>FBSDKCoreKit.framework</string>
-			<key>path</key>
-			<string>FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61EA108B1E05ABA900210503</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61EA108A1E05ABA900210503</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB0621E01E0DE0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61FDB06D1E01E0DE0081A820</string>
-				<string>61FDB0851E01E0DE0081A820</string>
-				<string>61FDB0901E01E0DF0081A820</string>
-				<string>61FDB06C1E01E0DE0081A820</string>
-				<string>CAC0119156B0DFFB1438241C</string>
-				<string>F8FE904FE96171068ECE413B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0631E01E0DE0081A820</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0810</string>
-				<key>LastUpgradeCheck</key>
-				<string>0810</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Oskar/Jake</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>61FDB06A1E01E0DE0081A820</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>DevelopmentTeam</key>
-						<string>CEJB5SCP4H</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>SystemCapabilities</key>
-						<dict>
-							<key>com.apple.Keychain</key>
-							<dict>
-								<key>enabled</key>
-								<string>1</string>
-							</dict>
-						</dict>
-					</dict>
-					<key>61FDB0811E01E0DE0081A820</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>61FDB06A1E01E0DE0081A820</string>
-					</dict>
-					<key>61FDB08C1E01E0DF0081A820</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.1</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>61FDB06A1E01E0DE0081A820</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>61FDB0661E01E0DE0081A820</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>61FDB0621E01E0DE0081A820</string>
-			<key>productRefGroup</key>
-			<string>61FDB06C1E01E0DE0081A820</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>61FDB06A1E01E0DE0081A820</string>
-				<string>61FDB0811E01E0DE0081A820</string>
-				<string>61FDB08C1E01E0DF0081A820</string>
-			</array>
-		</dict>
-		<key>61FDB0661E01E0DE0081A820</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61FDB0941E01E0DF0081A820</string>
-				<string>61FDB0951E01E0DF0081A820</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61FDB0671E01E0DE0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61FDB0771E01E0DE0081A820</string>
-				<string>61FDB0711E01E0DE0081A820</string>
-				<string>61BC1E211E04CDD000AB3752</string>
-				<string>61FDB06F1E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB0681E01E0DE0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61EA10891E05ABA200210503</string>
-				<string>61EA108B1E05ABA900210503</string>
-				<string>57D66B3012D0B9DDBD27F4F8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB0691E01E0DE0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61FDB07C1E01E0DE0081A820</string>
-				<string>51929BA11E04C63100F1C208</string>
-				<string>61FDB0791E01E0DE0081A820</string>
-				<string>61FDB0741E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB06A1E01E0DE0081A820</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>61FDB0961E01E0DF0081A820</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7FA0955519CC4F85806472E0</string>
-				<string>61FDB0671E01E0DE0081A820</string>
-				<string>61FDB0681E01E0DE0081A820</string>
-				<string>61FDB0691E01E0DE0081A820</string>
-				<string>58E0CF953ED054A4B261CFF1</string>
-				<string>20E94BA3C168B1D1CA9C97D5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ArtCisco7.0</string>
-			<key>productName</key>
-			<string>ArtCisco7.0</string>
-			<key>productReference</key>
-			<string>61FDB06B1E01E0DE0081A820</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>61FDB06B1E01E0DE0081A820</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ArtCisco7.0.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>61FDB06C1E01E0DE0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61FDB06B1E01E0DE0081A820</string>
-				<string>61FDB0821E01E0DE0081A820</string>
-				<string>61FDB08D1E01E0DF0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB06D1E01E0DE0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5180A2921E05B730009B9B99</string>
-				<string>61FDB06E1E01E0DE0081A820</string>
-				<string>61FDB0701E01E0DE0081A820</string>
-				<string>51929BA01E04C63100F1C208</string>
-				<string>61FDB0721E01E0DE0081A820</string>
-				<string>61BC1E201E04CDD000AB3752</string>
-				<string>61FDB0781E01E0DE0081A820</string>
-				<string>61FDB07A1E01E0DE0081A820</string>
-				<string>61FDB07D1E01E0DE0081A820</string>
-				<string>61FDB0751E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ArtCisco7.0</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB06E1E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB06F1E01E0DE0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB06E1E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB0701E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0711E01E0DE0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB0701E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB0721E01E0DE0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61FDB0731E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0731E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0741E01E0DE0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB0721E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB0751E01E0DE0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61FDB0761E01E0DE0081A820</string>
-			</array>
-			<key>currentVersion</key>
-			<string>61FDB0761E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>ArtCisco7_0.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>61FDB0761E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>ArtCisco7_0.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0771E01E0DE0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB0751E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB0781E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0791E01E0DE0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB0781E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB07A1E01E0DE0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61FDB07B1E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB07B1E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB07C1E01E0DE0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB07A1E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB07D1E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB07E1E01E0DE0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61FDB0871E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB07F1E01E0DE0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9444A850995F6E17E6D1A8F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB0801E01E0DE0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>51929BA21E04C63100F1C208</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB0811E01E0DE0081A820</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>61FDB0991E01E0DF0081A820</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7D860FA4779CAC1D1CF0EE85</string>
-				<string>61FDB07E1E01E0DE0081A820</string>
-				<string>61FDB07F1E01E0DE0081A820</string>
-				<string>61FDB0801E01E0DE0081A820</string>
-				<string>B3584E9CD1C9C73BE127E6FE</string>
-				<string>1FA0F4A142A7ACDF42079753</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>61FDB0841E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ArtCisco7.0Tests</string>
-			<key>productName</key>
-			<string>ArtCisco7.0Tests</string>
-			<key>productReference</key>
-			<string>61FDB0821E01E0DE0081A820</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>61FDB0821E01E0DE0081A820</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ArtCisco7.0Tests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>61FDB0831E01E0DE0081A820</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>61FDB0631E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>61FDB06A1E01E0DE0081A820</string>
-			<key>remoteInfo</key>
-			<string>ArtCisco7.0</string>
-		</dict>
-		<key>61FDB0841E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>61FDB06A1E01E0DE0081A820</string>
-			<key>targetProxy</key>
-			<string>61FDB0831E01E0DE0081A820</string>
-		</dict>
-		<key>61FDB0851E01E0DE0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61FDB0861E01E0DE0081A820</string>
-				<string>61FDB0881E01E0DE0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ArtCisco7.0Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0861E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ArtCisco7_0Tests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0871E01E0DE0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB0861E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB0881E01E0DE0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0891E01E0DF0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>61FDB0921E01E0DF0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB08A1E01E0DF0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ECEF340B7A69A5DE8E0DF977</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB08B1E01E0DF0081A820</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>51929BA31E04C63100F1C208</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61FDB08C1E01E0DF0081A820</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>61FDB09C1E01E0DF0081A820</string>
-			<key>buildPhases</key>
-			<array>
-				<string>70D4FCBCA64FE1C416EB001B</string>
-				<string>61FDB0891E01E0DF0081A820</string>
-				<string>61FDB08A1E01E0DF0081A820</string>
-				<string>61FDB08B1E01E0DF0081A820</string>
-				<string>06463375C5DAA3AF99FE4169</string>
-				<string>902DA8F50FE0040891250098</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>61FDB08F1E01E0DF0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ArtCisco7.0UITests</string>
-			<key>productName</key>
-			<string>ArtCisco7.0UITests</string>
-			<key>productReference</key>
-			<string>61FDB08D1E01E0DF0081A820</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>61FDB08D1E01E0DF0081A820</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ArtCisco7.0UITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>61FDB08E1E01E0DF0081A820</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>61FDB0631E01E0DE0081A820</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>61FDB06A1E01E0DE0081A820</string>
-			<key>remoteInfo</key>
-			<string>ArtCisco7.0</string>
-		</dict>
-		<key>61FDB08F1E01E0DF0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>61FDB06A1E01E0DE0081A820</string>
-			<key>targetProxy</key>
-			<string>61FDB08E1E01E0DF0081A820</string>
-		</dict>
-		<key>61FDB0901E01E0DF0081A820</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61FDB0911E01E0DF0081A820</string>
-				<string>61FDB0931E01E0DF0081A820</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ArtCisco7.0UITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0911E01E0DF0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ArtCisco7_0UITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0921E01E0DF0081A820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61FDB0911E01E0DF0081A820</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61FDB0931E01E0DF0081A820</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61FDB0941E01E0DF0081A820</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
-				<string>DEBUG</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61FDB0951E01E0DF0081A820</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>61FDB0961E01E0DF0081A820</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61FDB0971E01E0DF0081A820</string>
-				<string>61FDB0981E01E0DF0081A820</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61FDB0971E01E0DF0081A820</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9F84ED188AC633DF25D1ECB2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_ENTITLEMENTS</key>
-				<string>ArtCisco7.0/ArtCisco7.0.entitlements</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>CEJB5SCP4H</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks"</string>
-					<string>/Users/spare/Documents/FacebookSDKs-iOS-4.18.0</string>
-					<string>$(PROJECT_DIR)/FacebookSDKs-iOS-4.18.0</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ArtCisco7.0/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.oskarklonowski.ArtCisco7-0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61FDB0981E01E0DF0081A820</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1674037CB170F9A8A66F4C56</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_ENTITLEMENTS</key>
-				<string>ArtCisco7.0/ArtCisco7.0.entitlements</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>CEJB5SCP4H</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks"</string>
-					<string>"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks"</string>
-					<string>/Users/spare/Documents/FacebookSDKs-iOS-4.18.0</string>
-					<string>$(PROJECT_DIR)/FacebookSDKs-iOS-4.18.0</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ArtCisco7.0/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.oskarklonowski.ArtCisco7-0</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>61FDB0991E01E0DF0081A820</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61FDB09A1E01E0DF0081A820</string>
-				<string>61FDB09B1E01E0DF0081A820</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61FDB09A1E01E0DF0081A820</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F334F5061E31AD07C93FA277</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ArtCisco7.0Tests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.oskarklonowski.ArtCisco7-0Tests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ArtCisco7.0.app/ArtCisco7.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61FDB09B1E01E0DF0081A820</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4253E0272776A30B7EF0A787</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ArtCisco7.0Tests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.oskarklonowski.ArtCisco7-0Tests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ArtCisco7.0.app/ArtCisco7.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>61FDB09C1E01E0DF0081A820</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>61FDB09D1E01E0DF0081A820</string>
-				<string>61FDB09E1E01E0DF0081A820</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>61FDB09D1E01E0DF0081A820</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C6A03DE2110BF7FC812AB368</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ArtCisco7.0UITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.oskarklonowski.ArtCisco7-0UITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ArtCisco7.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>61FDB09E1E01E0DF0081A820</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>595886C490DF6BE75FC15B95</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ArtCisco7.0UITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.oskarklonowski.ArtCisco7-0UITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ArtCisco7.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>70D4FCBCA64FE1C416EB001B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7D860FA4779CAC1D1CF0EE85</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7FA0955519CC4F85806472E0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>902DA8F50FE0040891250098</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>9444A850995F6E17E6D1A8F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E151129A8DB568733583227D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9F84ED188AC633DF25D1ECB2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ArtCisco7.0.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B3584E9CD1C9C73BE127E6FE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C6A03DE2110BF7FC812AB368</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ArtCisco7.0UITests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CAC0119156B0DFFB1438241C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9F84ED188AC633DF25D1ECB2</string>
-				<string>1674037CB170F9A8A66F4C56</string>
-				<string>F334F5061E31AD07C93FA277</string>
-				<string>4253E0272776A30B7EF0A787</string>
-				<string>C6A03DE2110BF7FC812AB368</string>
-				<string>595886C490DF6BE75FC15B95</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB92186F25136E453204F237</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ArtCisco7_0UITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>E151129A8DB568733583227D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ArtCisco7_0Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>ECEF340B7A69A5DE8E0DF977</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DB92186F25136E453204F237</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F334F5061E31AD07C93FA277</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ArtCisco7.0Tests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8FE904FE96171068ECE413B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>61EA108A1E05ABA900210503</string>
-				<string>61EA10881E05ABA200210503</string>
-				<string>56A591E73D3AAAB34E71A5C1</string>
-				<string>E151129A8DB568733583227D</string>
-				<string>DB92186F25136E453204F237</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>61FDB0631E01E0DE0081A820</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51929BA11E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
+		51929BA21E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
+		51929BA31E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
+		57D66B3012D0B9DDBD27F4F8 /* Pods_ArtCisco7_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */; };
+		61BC1E211E04CDD000AB3752 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */; };
+		61EA10891E05ABA200210503 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA10881E05ABA200210503 /* FBSDKLoginKit.framework */; };
+		61EA108B1E05ABA900210503 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA108A1E05ABA900210503 /* FBSDKCoreKit.framework */; };
+		61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */; };
+		61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0701E01E0DE0081A820 /* ViewController.swift */; };
+		61FDB0741E01E0DE0081A820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB0721E01E0DE0081A820 /* Main.storyboard */; };
+		61FDB0771E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0751E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld */; };
+		61FDB0791E01E0DE0081A820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB0781E01E0DE0081A820 /* Assets.xcassets */; };
+		61FDB07C1E01E0DE0081A820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */; };
+		61FDB0871E01E0DE0081A820 /* ArtCisco7_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0861E01E0DE0081A820 /* ArtCisco7_0Tests.swift */; };
+		61FDB0921E01E0DF0081A820 /* ArtCisco7_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */; };
+		9444A850995F6E17E6D1A8F9 /* Pods_ArtCisco7_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E151129A8DB568733583227D /* Pods_ArtCisco7_0Tests.framework */; };
+		ECEF340B7A69A5DE8E0DF977 /* Pods_ArtCisco7_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB92186F25136E453204F237 /* Pods_ArtCisco7_0UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61FDB0831E01E0DE0081A820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61FDB0631E01E0DE0081A820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61FDB06A1E01E0DE0081A820;
+			remoteInfo = ArtCisco7.0;
+		};
+		61FDB08E1E01E0DF0081A820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61FDB0631E01E0DE0081A820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61FDB06A1E01E0DE0081A820;
+			remoteInfo = ArtCisco7.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0.release.xcconfig"; sourceTree = "<group>"; };
+		4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5180A2921E05B730009B9B99 /* ArtCisco7.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtCisco7.0.entitlements; sourceTree = "<group>"; };
+		51929BA01E04C63100F1C208 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		51FB4D5C1E06302300E4B1D1 /* ArtCisco7.0-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArtCisco7.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		61EA10881E05ABA200210503 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		61EA108A1E05ABA900210503 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCisco7.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61FDB0701E01E0DE0081A820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61FDB0731E01E0DE0081A820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61FDB0761E01E0DE0081A820 /* ArtCisco7_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtCisco7_0.xcdatamodel; sourceTree = "<group>"; };
+		61FDB0781E01E0DE0081A820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61FDB07B1E01E0DE0081A820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61FDB07D1E01E0DE0081A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61FDB0821E01E0DE0081A820 /* ArtCisco7.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtCisco7.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FDB0861E01E0DE0081A820 /* ArtCisco7_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCisco7_0Tests.swift; sourceTree = "<group>"; };
+		61FDB0881E01E0DE0081A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61FDB08D1E01E0DF0081A820 /* ArtCisco7.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtCisco7.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCisco7_0UITests.swift; sourceTree = "<group>"; };
+		61FDB0931E01E0DF0081A820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F84ED188AC633DF25D1ECB2 /* Pods-ArtCisco7.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A03DE2110BF7FC812AB368 /* Pods-ArtCisco7.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB92186F25136E453204F237 /* Pods_ArtCisco7_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E151129A8DB568733583227D /* Pods_ArtCisco7_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F334F5061E31AD07C93FA277 /* Pods-ArtCisco7.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61FDB0681E01E0DE0081A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EA10891E05ABA200210503 /* FBSDKLoginKit.framework in Frameworks */,
+				61EA108B1E05ABA900210503 /* FBSDKCoreKit.framework in Frameworks */,
+				57D66B3012D0B9DDBD27F4F8 /* Pods_ArtCisco7_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB07F1E01E0DE0081A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9444A850995F6E17E6D1A8F9 /* Pods_ArtCisco7_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB08A1E01E0DF0081A820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEF340B7A69A5DE8E0DF977 /* Pods_ArtCisco7_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61FDB0621E01E0DE0081A820 = {
+			isa = PBXGroup;
+			children = (
+				61FDB06D1E01E0DE0081A820 /* ArtCisco7.0 */,
+				61FDB0851E01E0DE0081A820 /* ArtCisco7.0Tests */,
+				61FDB0901E01E0DF0081A820 /* ArtCisco7.0UITests */,
+				61FDB06C1E01E0DE0081A820 /* Products */,
+				CAC0119156B0DFFB1438241C /* Pods */,
+				F8FE904FE96171068ECE413B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61FDB06C1E01E0DE0081A820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */,
+				61FDB0821E01E0DE0081A820 /* ArtCisco7.0Tests.xctest */,
+				61FDB08D1E01E0DF0081A820 /* ArtCisco7.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61FDB06D1E01E0DE0081A820 /* ArtCisco7.0 */ = {
+			isa = PBXGroup;
+			children = (
+				5180A2921E05B730009B9B99 /* ArtCisco7.0.entitlements */,
+				61FDB06E1E01E0DE0081A820 /* AppDelegate.swift */,
+				61FDB0701E01E0DE0081A820 /* ViewController.swift */,
+				51FB4D5C1E06302300E4B1D1 /* ArtCisco7.0-Bridging-Header.h */,
+				51929BA01E04C63100F1C208 /* GoogleService-Info.plist */,
+				61FDB0721E01E0DE0081A820 /* Main.storyboard */,
+				61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */,
+				61FDB0781E01E0DE0081A820 /* Assets.xcassets */,
+				61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */,
+				61FDB07D1E01E0DE0081A820 /* Info.plist */,
+				61FDB0751E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld */,
+			);
+			path = ArtCisco7.0;
+			sourceTree = "<group>";
+		};
+		61FDB0851E01E0DE0081A820 /* ArtCisco7.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB0861E01E0DE0081A820 /* ArtCisco7_0Tests.swift */,
+				61FDB0881E01E0DE0081A820 /* Info.plist */,
+			);
+			path = ArtCisco7.0Tests;
+			sourceTree = "<group>";
+		};
+		61FDB0901E01E0DF0081A820 /* ArtCisco7.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				61FDB0911E01E0DF0081A820 /* ArtCisco7_0UITests.swift */,
+				61FDB0931E01E0DF0081A820 /* Info.plist */,
+			);
+			path = ArtCisco7.0UITests;
+			sourceTree = "<group>";
+		};
+		CAC0119156B0DFFB1438241C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F84ED188AC633DF25D1ECB2 /* Pods-ArtCisco7.0.debug.xcconfig */,
+				1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */,
+				F334F5061E31AD07C93FA277 /* Pods-ArtCisco7.0Tests.debug.xcconfig */,
+				4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */,
+				C6A03DE2110BF7FC812AB368 /* Pods-ArtCisco7.0UITests.debug.xcconfig */,
+				595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8FE904FE96171068ECE413B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61EA108A1E05ABA900210503 /* FBSDKCoreKit.framework */,
+				61EA10881E05ABA200210503 /* FBSDKLoginKit.framework */,
+				56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */,
+				E151129A8DB568733583227D /* Pods_ArtCisco7_0Tests.framework */,
+				DB92186F25136E453204F237 /* Pods_ArtCisco7_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FDB0961E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0" */;
+			buildPhases = (
+				7FA0955519CC4F85806472E0 /* [CP] Check Pods Manifest.lock */,
+				61FDB0671E01E0DE0081A820 /* Sources */,
+				61FDB0681E01E0DE0081A820 /* Frameworks */,
+				61FDB0691E01E0DE0081A820 /* Resources */,
+				58E0CF953ED054A4B261CFF1 /* [CP] Embed Pods Frameworks */,
+				20E94BA3C168B1D1CA9C97D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtCisco7.0;
+			productName = ArtCisco7.0;
+			productReference = 61FDB06B1E01E0DE0081A820 /* ArtCisco7.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61FDB0811E01E0DE0081A820 /* ArtCisco7.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FDB0991E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0Tests" */;
+			buildPhases = (
+				7D860FA4779CAC1D1CF0EE85 /* [CP] Check Pods Manifest.lock */,
+				61FDB07E1E01E0DE0081A820 /* Sources */,
+				61FDB07F1E01E0DE0081A820 /* Frameworks */,
+				61FDB0801E01E0DE0081A820 /* Resources */,
+				B3584E9CD1C9C73BE127E6FE /* [CP] Embed Pods Frameworks */,
+				1FA0F4A142A7ACDF42079753 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61FDB0841E01E0DE0081A820 /* PBXTargetDependency */,
+			);
+			name = ArtCisco7.0Tests;
+			productName = ArtCisco7.0Tests;
+			productReference = 61FDB0821E01E0DE0081A820 /* ArtCisco7.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61FDB08C1E01E0DF0081A820 /* ArtCisco7.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FDB09C1E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0UITests" */;
+			buildPhases = (
+				70D4FCBCA64FE1C416EB001B /* [CP] Check Pods Manifest.lock */,
+				61FDB0891E01E0DF0081A820 /* Sources */,
+				61FDB08A1E01E0DF0081A820 /* Frameworks */,
+				61FDB08B1E01E0DF0081A820 /* Resources */,
+				06463375C5DAA3AF99FE4169 /* [CP] Copy Pods Resources */,
+				902DA8F50FE0040891250098 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61FDB08F1E01E0DF0081A820 /* PBXTargetDependency */,
+			);
+			name = ArtCisco7.0UITests;
+			productName = ArtCisco7.0UITests;
+			productReference = 61FDB08D1E01E0DF0081A820 /* ArtCisco7.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61FDB0631E01E0DE0081A820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Oskar/Jake;
+				TargetAttributes = {
+					61FDB06A1E01E0DE0081A820 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CEJB5SCP4H;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					61FDB0811E01E0DE0081A820 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61FDB06A1E01E0DE0081A820;
+					};
+					61FDB08C1E01E0DF0081A820 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61FDB06A1E01E0DE0081A820;
+					};
+				};
+			};
+			buildConfigurationList = 61FDB0661E01E0DE0081A820 /* Build configuration list for PBXProject "ArtCisco7.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61FDB0621E01E0DE0081A820;
+			productRefGroup = 61FDB06C1E01E0DE0081A820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */,
+				61FDB0811E01E0DE0081A820 /* ArtCisco7.0Tests */,
+				61FDB08C1E01E0DF0081A820 /* ArtCisco7.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61FDB0691E01E0DE0081A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB07C1E01E0DE0081A820 /* LaunchScreen.storyboard in Resources */,
+				51929BA11E04C63100F1C208 /* GoogleService-Info.plist in Resources */,
+				61FDB0791E01E0DE0081A820 /* Assets.xcassets in Resources */,
+				61FDB0741E01E0DE0081A820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB0801E01E0DE0081A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51929BA21E04C63100F1C208 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB08B1E01E0DF0081A820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51929BA31E04C63100F1C208 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06463375C5DAA3AF99FE4169 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA0F4A142A7ACDF42079753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20E94BA3C168B1D1CA9C97D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E0CF953ED054A4B261CFF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0/Pods-ArtCisco7.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D4FCBCA64FE1C416EB001B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D860FA4779CAC1D1CF0EE85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA0955519CC4F85806472E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		902DA8F50FE0040891250098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3584E9CD1C9C73BE127E6FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61FDB0671E01E0DE0081A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB0771E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld in Sources */,
+				61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */,
+				61BC1E211E04CDD000AB3752 /* RegistrationViewController.swift in Sources */,
+				61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB07E1E01E0DE0081A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB0871E01E0DE0081A820 /* ArtCisco7_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61FDB0891E01E0DF0081A820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FDB0921E01E0DF0081A820 /* ArtCisco7_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61FDB0841E01E0DE0081A820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */;
+			targetProxy = 61FDB0831E01E0DE0081A820 /* PBXContainerItemProxy */;
+		};
+		61FDB08F1E01E0DF0081A820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61FDB06A1E01E0DE0081A820 /* ArtCisco7.0 */;
+			targetProxy = 61FDB08E1E01E0DF0081A820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61FDB0721E01E0DE0081A820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FDB0731E01E0DE0081A820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61FDB07B1E01E0DE0081A820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61FDB0941E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61FDB0951E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61FDB0971E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F84ED188AC633DF25D1ECB2 /* Pods-ArtCisco7.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtCisco7.0/ArtCisco7.0.entitlements;
+				DEVELOPMENT_TEAM = CEJB5SCP4H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+					"/Users/spare/Documents/FacebookSDKs-iOS-4.18.0",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.18.0",
+				);
+				INFOPLIST_FILE = ArtCisco7.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArtCisco7.0/ArtCisco7.0-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		61FDB0981E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1674037CB170F9A8A66F4C56 /* Pods-ArtCisco7.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArtCisco7.0/ArtCisco7.0.entitlements;
+				DEVELOPMENT_TEAM = CEJB5SCP4H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+					"/Users/spare/Documents/FacebookSDKs-iOS-4.18.0",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.18.0",
+				);
+				INFOPLIST_FILE = ArtCisco7.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArtCisco7.0/ArtCisco7.0-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		61FDB09A1E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F334F5061E31AD07C93FA277 /* Pods-ArtCisco7.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtCisco7.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtCisco7.0.app/ArtCisco7.0";
+			};
+			name = Debug;
+		};
+		61FDB09B1E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtCisco7.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtCisco7.0.app/ArtCisco7.0";
+			};
+			name = Release;
+		};
+		61FDB09D1E01E0DF0081A820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A03DE2110BF7FC812AB368 /* Pods-ArtCisco7.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ArtCisco7.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArtCisco7.0;
+			};
+			name = Debug;
+		};
+		61FDB09E1E01E0DF0081A820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ArtCisco7.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oskarklonowski.ArtCisco7-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArtCisco7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61FDB0661E01E0DE0081A820 /* Build configuration list for PBXProject "ArtCisco7.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB0941E01E0DF0081A820 /* Debug */,
+				61FDB0951E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61FDB0961E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB0971E01E0DF0081A820 /* Debug */,
+				61FDB0981E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61FDB0991E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB09A1E01E0DF0081A820 /* Debug */,
+				61FDB09B1E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61FDB09C1E01E0DF0081A820 /* Build configuration list for PBXNativeTarget "ArtCisco7.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FDB09D1E01E0DF0081A820 /* Debug */,
+				61FDB09E1E01E0DF0081A820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61FDB0751E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61FDB0761E01E0DE0081A820 /* ArtCisco7_0.xcdatamodel */,
+			);
+			currentVersion = 61FDB0761E01E0DE0081A820 /* ArtCisco7_0.xcdatamodel */;
+			path = ArtCisco7_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61FDB0631E01E0DE0081A820 /* Project object */;
+}
