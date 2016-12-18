@@ -36,9 +36,12 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate {
     }
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
         print("User Logged In")
+        self.performSegue(withIdentifier: "signInUserSegue", sender: self)
+
     }
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("User Logged Out")
+
     }
     
     func signInAction(_ sender: Any) {

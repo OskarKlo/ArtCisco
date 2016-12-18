@@ -12,6 +12,7 @@ import CoreData
 //import Firebase
 import Firebase
 import FBSDKLoginKit
+import GeoFire
 
 
 @UIApplicationMain

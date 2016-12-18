@@ -6,10 +6,14 @@ target 'ArtCisco7.0' do
   use_frameworks!
 
   # Pods for ArtCisco7.0
+ 
+
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-
-  target 'ArtCisco7.0Tests' do
+  pod 'Firebase/Database'
+  pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
+ 
+target 'ArtCisco7.0Tests' do
     inherit! :search_paths
     # Pods for testing
   end
