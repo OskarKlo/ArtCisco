@@ -12,7 +12,7 @@ target 'ArtCisco7.0' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
- 
+   
 target 'ArtCisco7.0Tests' do
     inherit! :search_paths
     # Pods for testing
@@ -22,5 +22,8 @@ target 'ArtCisco7.0Tests' do
     inherit! :search_paths
     # Pods for testing
   end
-
+  source 'https://github.com/CocoaPods/Specs.git' do
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+end
 end
