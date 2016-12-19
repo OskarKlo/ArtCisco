@@ -10,6 +10,7 @@
 		51929BA11E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
 		51929BA21E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
 		51929BA31E04C63100F1C208 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51929BA01E04C63100F1C208 /* GoogleService-Info.plist */; };
+		51F0FD4E1E07503D0002E99F /* AddArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F0FD4D1E07503D0002E99F /* AddArtViewController.swift */; };
 		57D66B3012D0B9DDBD27F4F8 /* Pods_ArtCisco7_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */; };
 		61BC1E211E04CDD000AB3752 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */; };
 		61EA10891E05ABA200210503 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA10881E05ABA200210503 /* FBSDKLoginKit.framework */; };
@@ -48,6 +49,7 @@
 		4253E0272776A30B7EF0A787 /* Pods-ArtCisco7.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5180A2921E05B730009B9B99 /* ArtCisco7.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArtCisco7.0.entitlements; sourceTree = "<group>"; };
 		51929BA01E04C63100F1C208 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		51F0FD4D1E07503D0002E99F /* AddArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddArtViewController.swift; sourceTree = "<group>"; };
 		51FB4D5C1E06302300E4B1D1 /* ArtCisco7.0-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArtCisco7.0-Bridging-Header.h"; sourceTree = "<group>"; };
 		56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				51FB4D5C1E06302300E4B1D1 /* ArtCisco7.0-Bridging-Header.h */,
 				51929BA01E04C63100F1C208 /* GoogleService-Info.plist */,
 				61FDB0721E01E0DE0081A820 /* Main.storyboard */,
+				51F0FD4D1E07503D0002E99F /* AddArtViewController.swift */,
 				61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */,
 				61FDB0781E01E0DE0081A820 /* Assets.xcassets */,
 				61FDB07A1E01E0DE0081A820 /* LaunchScreen.storyboard */,
@@ -480,6 +483,7 @@
 			files = (
 				61FDB0771E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld in Sources */,
 				61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */,
+				51F0FD4E1E07503D0002E99F /* AddArtViewController.swift in Sources */,
 				61BC1E211E04CDD000AB3752 /* RegistrationViewController.swift in Sources */,
 				61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */,
 			);
