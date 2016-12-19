@@ -11,13 +11,18 @@ import UIKit
 import GoogleMaps
 
 class MapViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
         
-        GMSServices.provideAPIKey("AIzaSyCME7Mf_L2u9vUBk05D8zDwN8rCn1SYfFI")
-        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
-        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-        view = mapView
+        var locationManager = CLLocationManager()
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            GMSServices.provideAPIKey("AIzaSyDOXZPIVoUtMiXGKujfG1m-pJHQTfvghIc")
+            let camera = GMSCameraPosition.camera(withLatitude: 33.4436,
+                                                  longitude: 115.4392, zoom: 10)
+            let mapView = GMSMapView.map(withFrame: CGRect(x: 0,y: 0, width: 200, height: 200), camera: camera)
+            mapView.isMyLocationEnabled = true
+            view = mapView
     }
 }
+
