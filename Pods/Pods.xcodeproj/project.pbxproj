@@ -8,32 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0259BA3BE1CCA32AD58E2CD9142B5F04 /* Pods-ArtCisco7.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FF0D837350EFC7BBD23120A1CB866B /* Pods-ArtCisco7.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D374E1D2155CB08926E68C03571F546 /* GeoFire.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F7A834235F97815133D52550A70D60 /* GeoFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D374E1D2155CB08926E68C03571F546 /* GeoFire.h in Headers */ = {isa = PBXBuildFile; fileRef = E83DB9F7E4FCEEF85400ACFEEC85F3D8 /* GeoFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A62535380D33E366DBFC4637E68579B /* Pods-ArtCisco7.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789555B2D47E97D32186D38244BE86B1 /* Pods-ArtCisco7.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E0EB9EC49F0382DB9CA0F32A234231C /* Pods-ArtCisco7.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB317F13F7B1331B860206713A2DF29 /* Pods-ArtCisco7.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37AD422A9A44BEEE0C2FC610FDDE5B0D /* Pods-ArtCisco7.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A7A3C90B4056AA8B7343BDDFCACE1B /* Pods-ArtCisco7.0UITests-dummy.m */; };
 		41BFDFB38907347672A557E5A13F15D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
-		42C676E3E1D1639CCBB3889D6B2A6B39 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2951C9C5AC4364BB81EEC5F1FF9F6F61 /* GFGeoHashQuery.m */; };
-		4F37EF3E5C96B1B2069CA279A85394C5 /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1E7CD908FDED912B65B8A677209FAF /* GFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		666F9731B283D4CEA0EF0A9502B6692B /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A209EF1D5752FE7E60F5111AA5930F /* GFGeoHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89E1DF65BE6494CEA392DF77195EC464 /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D6FA46A10440F4AAE82968BBC58060 /* GFCircleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DF298670D8C4FC634F55596592D631C /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = B41D39C3CC6AFCF067A2B71AC0363BF0 /* GFGeoHash.m */; };
-		98F708E2D511D6CEEE215A0089372D58 /* GeoFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A980740CBAEC35DFCB1751059B1B971 /* GeoFire-dummy.m */; };
-		994A7F37ADD4BA3AB3D704495B41B21A /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = D20F2E48D99590263659F178D8DB6589 /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42C676E3E1D1639CCBB3889D6B2A6B39 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D55A0F3F733DB1DE72D307678E1C655 /* GFGeoHashQuery.m */; };
+		4F37EF3E5C96B1B2069CA279A85394C5 /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DACB40E1193DABB4E5E218A4FB7A3A /* GFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6149FE831E087E330092313C /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF943DFB130561BDEA0A4783828746C /* FirebaseDatabase.framework */; };
+		666F9731B283D4CEA0EF0A9502B6692B /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFE8F912B2E5874E059D78563EE3597 /* GFGeoHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E1DF65BE6494CEA392DF77195EC464 /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC0942C68D1D8786B237E57D7CF98E /* GFCircleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF298670D8C4FC634F55596592D631C /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC2A893AE58956A5DBB4A4A67DC437 /* GFGeoHash.m */; };
+		98F708E2D511D6CEEE215A0089372D58 /* GeoFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F152ADA01FB0DBC8D4DB9A326E71 /* GeoFire-dummy.m */; };
+		994A7F37ADD4BA3AB3D704495B41B21A /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 54269390D0FF034C3F2A47137C83F251 /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B8FF2EE295200D0F243CAE79FEAD87 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2FDE484E2AEE69B1F2C2CEFE2F99E2 /* CoreLocation.framework */; };
 		B17FCD858C05414310272DF641D0CF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
-		B2353D00D80B8330C7CECFD124C940D7 /* GeoFire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4132AB3CFF9BFD0E7D3F3AB65F4F8ED6 /* GeoFire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2353D00D80B8330C7CECFD124C940D7 /* GeoFire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 858279D2BD1FE6F0EE9DBA54E17BC6EE /* GeoFire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27B2AD414D9182C27251865803BB63A /* Pods-ArtCisco7.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AF8002FE4986D420703D25C955006 /* Pods-ArtCisco7.0-dummy.m */; };
-		B885D95B893BAB0A2A4F88AA77F65391 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC8BCB812FC96CE16E1FF8AA8E06DE6 /* GeoFire.m */; };
-		C36D957BA9C8AAAC9E30CE2C93917E8E /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464BC745E33A20C2DD82CEFFB489C93 /* GFBase32Utils.m */; };
+		B885D95B893BAB0A2A4F88AA77F65391 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = F87741AACEBDEB6612920707DC5333B9 /* GeoFire.m */; };
+		C36D957BA9C8AAAC9E30CE2C93917E8E /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0EE5E81B7697E8A81A6AF9B6E9E98B /* GFBase32Utils.m */; };
 		D56EAE5C4E3062DA04C763376E9DC347 /* Pods-ArtCisco7.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171B82D5E9B546208E07A7E049E280F2 /* Pods-ArtCisco7.0Tests-dummy.m */; };
-		D81C96A302E02345E39111FCD16919EF /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 93201A42681D91C62247B71F6F2FD6F9 /* GFRegionQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB862EB5E0ED79C65DA8A4BA12B71BDC /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CFEA535F9454F40234491A2121DFC0 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E27B99D817512D5471653F12844FC4E2 /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E7187E3B4E264CFA20F19721FA9A5FDE /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81C96A302E02345E39111FCD16919EF /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C7DAEE65E53A010EF0A64A07AAECAF /* GFRegionQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB862EB5E0ED79C65DA8A4BA12B71BDC /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2863331581462BDE221199DF3EF5F773 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27B99D817512D5471653F12844FC4E2 /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C84F2D697E7A6D3910578440E230345D /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3D7B1C8B30A15C261DC33E59815A6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
 		E7B108802B05BF13531F8D484C144DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
-		F2FB85BC9AF956E3C937E61A46079AAD /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D79627B8718A096DD5719119CFCE9915 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9F86A7266DB2921AABCADB8EACFF48F /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94387B1E7D850D09D98570140C3A07 /* GFQuery.m */; };
+		F2FB85BC9AF956E3C937E61A46079AAD /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 93425B9AB4AD6F32F895D6D7B4C306D4 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F86A7266DB2921AABCADB8EACFF48F /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F211C45F69A4CD84FD66D02824A0FBB /* GFQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,81 +48,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05946CD210A520DA0E5EAEE270D08724 /* GFGeoHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHash.h; path = GeoFire/Implementation/GFGeoHash.h; sourceTree = "<group>"; };
 		05A7A3C90B4056AA8B7343BDDFCACE1B /* Pods-ArtCisco7.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtCisco7.0UITests-dummy.m"; sourceTree = "<group>"; };
 		0B27083713E8DAB3AA0ACC6E62327FBA /* Pods-ArtCisco7.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0.release.xcconfig"; sourceTree = "<group>"; };
+		0C09CD1EF378CA5DF442C5CBF3DFC74D /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
 		0C996F6272581B7BA34E9448C1A44124 /* Pods-ArtCisco7.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtCisco7.0-frameworks.sh"; sourceTree = "<group>"; };
-		0CCC22AD2F28F6052D9F2B9226923F17 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		0D5452C28FEE07D22CC63EAE0574903A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12038E714E9022B040031CDD9E95071F /* Pods-ArtCisco7.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArtCisco7.0UITests.modulemap"; sourceTree = "<group>"; };
-		1602C113EDE8C62F9E29CB001953B175 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		12038E714E9022B040031CDD9E95071F /* Pods-ArtCisco7.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArtCisco7.0UITests.modulemap"; sourceTree = "<group>"; };
+		13A9C0024C838DB7D8455ABA7C8B04CF /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		1607BAE558AB42A08863632B5825C07A /* Pods-ArtCisco7.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0.debug.xcconfig"; sourceTree = "<group>"; };
 		171B82D5E9B546208E07A7E049E280F2 /* Pods-ArtCisco7.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtCisco7.0Tests-dummy.m"; sourceTree = "<group>"; };
-		1937D6F037CEA7F98C71082DA81C3022 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2FDE484E2AEE69B1F2C2CEFE2F99E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		2951C9C5AC4364BB81EEC5F1FF9F6F61 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHashQuery.m; path = GeoFire/Implementation/GFGeoHashQuery.m; sourceTree = "<group>"; };
-		2A980740CBAEC35DFCB1751059B1B971 /* GeoFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoFire-dummy.m"; sourceTree = "<group>"; };
-		32D6FA46A10440F4AAE82968BBC58060 /* GFCircleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFCircleQuery.h; path = GeoFire/API/GFCircleQuery.h; sourceTree = "<group>"; };
+		1CF28EC1276A148ABE0BFDDE6B982A0E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		2863331581462BDE221199DF3EF5F773 /* GeoFire+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GeoFire+Private.h"; path = "GeoFire/Implementation/GeoFire+Private.h"; sourceTree = "<group>"; };
+		2D55A0F3F733DB1DE72D307678E1C655 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHashQuery.m; path = GeoFire/Implementation/GFGeoHashQuery.m; sourceTree = "<group>"; };
+		2FAC2A893AE58956A5DBB4A4A67DC437 /* GFGeoHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHash.m; path = GeoFire/Implementation/GFGeoHash.m; sourceTree = "<group>"; };
 		3558FE0425D7A8EDB45347E7DCF1FB48 /* Pods-ArtCisco7.0UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtCisco7.0UITests-resources.sh"; sourceTree = "<group>"; };
 		3CB317F13F7B1331B860206713A2DF29 /* Pods-ArtCisco7.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtCisco7.0-umbrella.h"; sourceTree = "<group>"; };
-		43C98B3A159DAA76C0AEE3CD2310FE72 /* GFCircleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFCircleQuery.h; path = GeoFire/API/GFCircleQuery.h; sourceTree = "<group>"; };
+		414C799855BB40758A35B8E2D7498D69 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		433F777001264EB1D2FAE9B107B45CDD /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		47CC0942C68D1D8786B237E57D7CF98E /* GFCircleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFCircleQuery.h; path = GeoFire/API/GFCircleQuery.h; sourceTree = "<group>"; };
+		49EC28F4562AA328876F7A98042F4D79 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		4A25469C6B078CB707800B61D75E897E /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		4EB8901F759FD4417F81DD8D9CFB9A66 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		4F8EE83BA3562CC21AB18AC31B67695C /* Pods-ArtCisco7.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtCisco7.0-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C5C01F5483FBF67ED2B291754F5496E /* GeoFire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoFire.xcconfig; sourceTree = "<group>"; };
+		54269390D0FF034C3F2A47137C83F251 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHashQuery.h; path = GeoFire/Implementation/GFGeoHashQuery.h; sourceTree = "<group>"; };
+		62E9FB8D5162BE9E47197CF3E9E80BDD /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		688BCCE4F4B5C8905642E50162975D32 /* Pods-ArtCisco7.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtCisco7.0-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B41970B10599CF8236BEC027F40EA5B /* Pods-ArtCisco7.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtCisco7.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		700701637DDFB599FBBFAD2140288FE6 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		6CF943DFB130561BDEA0A4783828746C /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		71DACB40E1193DABB4E5E218A4FB7A3A /* GFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFQuery.h; path = GeoFire/API/GFQuery.h; sourceTree = "<group>"; };
 		789555B2D47E97D32186D38244BE86B1 /* Pods-ArtCisco7.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtCisco7.0UITests-umbrella.h"; sourceTree = "<group>"; };
 		7A3AF8002FE4986D420703D25C955006 /* Pods-ArtCisco7.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtCisco7.0-dummy.m"; sourceTree = "<group>"; };
-		7D43984AD9AC0284FAB9C98E975E88DA /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		7ED746ECD34CD3BAD5797521AAA19AC6 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		7A66F152ADA01FB0DBC8D4DB9A326E71 /* GeoFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoFire-dummy.m"; sourceTree = "<group>"; };
+		7F211C45F69A4CD84FD66D02824A0FBB /* GFQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFQuery.m; path = GeoFire/Implementation/GFQuery.m; sourceTree = "<group>"; };
 		80FF0D837350EFC7BBD23120A1CB866B /* Pods-ArtCisco7.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtCisco7.0Tests-umbrella.h"; sourceTree = "<group>"; };
 		8316B0EEBF3D979254F5E4509E960547 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843A30C55C0824EF05A1BDA465B72C62 /* GeoFire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GeoFire.modulemap; sourceTree = "<group>"; };
 		84AB229B243E0FF94E8D5A2ED663F84B /* Pods-ArtCisco7.0Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtCisco7.0Tests-frameworks.sh"; sourceTree = "<group>"; };
-		87683B3D1010692353B0F5DB2077CA64 /* GeoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeoFire.framework; path = GeoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		906EDECA6A401B5DE82036ADFEBDE3A6 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		858279D2BD1FE6F0EE9DBA54E17BC6EE /* GeoFire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoFire-umbrella.h"; sourceTree = "<group>"; };
+		860982AAC52E6AD178220667ADAB1817 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		87683B3D1010692353B0F5DB2077CA64 /* GeoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA6574ABDEE7CDC8C053229F07AF812 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
 		90B5CE7DBB78E8A750035514B2409F5B /* Pods-ArtCisco7.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		931CED672D5E8AD9C675A8EA6BAAB66B /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		93201A42681D91C62247B71F6F2FD6F9 /* GFRegionQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFRegionQuery.h; path = GeoFire/API/GFRegionQuery.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		940E1FB11FEB3A8F32EA14F592533B30 /* GeoFire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GeoFire.modulemap; sourceTree = "<group>"; };
+		93425B9AB4AD6F32F895D6D7B4C306D4 /* GFQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GFQuery+Private.h"; path = "GeoFire/Implementation/GFQuery+Private.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95938A27CD0EAC298FD9FA14D3EC5946 /* Pods-ArtCisco7.0-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtCisco7.0-resources.sh"; sourceTree = "<group>"; };
-		978FD65ACC22487B129DF3710461A8F8 /* Pods_ArtCisco7_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArtCisco7_0Tests.framework; path = "Pods-ArtCisco7.0Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98A209EF1D5752FE7E60F5111AA5930F /* GFGeoHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHash.h; path = GeoFire/Implementation/GFGeoHash.h; sourceTree = "<group>"; };
-		A0CD004C1BF567345697A804065D5937 /* Pods-ArtCisco7.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArtCisco7.0.modulemap"; sourceTree = "<group>"; };
-		A110A0253B4A04D4DEF1AFC783EFADBC /* Pods-ArtCisco7.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ArtCisco7.0Tests.modulemap"; sourceTree = "<group>"; };
+		978FD65ACC22487B129DF3710461A8F8 /* Pods_ArtCisco7_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CD004C1BF567345697A804065D5937 /* Pods-ArtCisco7.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArtCisco7.0.modulemap"; sourceTree = "<group>"; };
+		A110A0253B4A04D4DEF1AFC783EFADBC /* Pods-ArtCisco7.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArtCisco7.0Tests.modulemap"; sourceTree = "<group>"; };
+		A1BBC5751FAAB5B3412EF55F9C3CAA9F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		A34B9DC7C74751231B0490554BB20032 /* Pods-ArtCisco7.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4896C4F5F8427DE4081445044290903 /* Pods-ArtCisco7.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A4EE215419A6D3D09E4FEF3627B5DD52 /* GeoFire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFire.h; path = GeoFire/API/GeoFire.h; sourceTree = "<group>"; };
-		A85326356443D70CEDD035D706CD9950 /* GeoFire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoFire-prefix.pch"; sourceTree = "<group>"; };
-		AA9F6588D88BF0EF26A622352EA5D520 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		A9A0DCA9A9C93F739E1346BCB3D8FE50 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		AADB4DCF8E73A64B34F5C298B2027DB1 /* Pods-ArtCisco7.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtCisco7.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoFire.xcconfig; sourceTree = "<group>"; };
 		AD1917E878757EF59A9D96EAD8601FEA /* Pods-ArtCisco7.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtCisco7.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AEBFA81231369BD04B9F4D82099E12F8 /* GFRegionQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFRegionQuery.h; path = GeoFire/API/GFRegionQuery.h; sourceTree = "<group>"; };
-		B57237FEC95116F79ABD308DCF1836FE /* GFGeoHashQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHashQuery.h; path = GeoFire/Implementation/GFGeoHashQuery.h; sourceTree = "<group>"; };
-		B5881E619BE1E92E8D5AFA5A085B0A82 /* GFGeoHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHash.m; path = GeoFire/Implementation/GFGeoHash.m; sourceTree = "<group>"; };
+		B075BF2CF9D8C0A634628377DFFDCA41 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		B6BE6A7845DC3F2B3C5BB72B2C82AB2A /* GeoFire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoFire-prefix.pch"; sourceTree = "<group>"; };
+		B7C7DAEE65E53A010EF0A64A07AAECAF /* GFRegionQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFRegionQuery.h; path = GeoFire/API/GFRegionQuery.h; sourceTree = "<group>"; };
 		B936169313B2C3D6C0C648A673FFEF36 /* Pods-ArtCisco7.0UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtCisco7.0UITests-frameworks.sh"; sourceTree = "<group>"; };
 		C2F1023097103E8B00DBE2425CF5B2A0 /* Pods-ArtCisco7.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0UITests.release.xcconfig"; sourceTree = "<group>"; };
-		C58E964F52382910E5547B1E2AF8EB56 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
-		C7E35A57689ECACB88575F837FC81EB5 /* GFQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFQuery.m; path = GeoFire/Implementation/GFQuery.m; sourceTree = "<group>"; };
-		C817B839280158EB06E3EA6F090C5B01 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		C84F2D697E7A6D3910578440E230345D /* GFBase32Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFBase32Utils.h; path = GeoFire/Implementation/GFBase32Utils.h; sourceTree = "<group>"; };
 		CA4E2CB242BEB442D41EBF06BD5CB68A /* Pods-ArtCisco7.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtCisco7.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEBE95AB59828CC382D8CFE4E499B779 /* Pods_ArtCisco7_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArtCisco7_0.framework; path = "Pods-ArtCisco7.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0BFC484E8C7691A9B543E05B7FC6D45 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		D18847B6AB882034668A9DC4B867CEEA /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		D20F2E48D99590263659F178D8DB6589 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHashQuery.h; path = GeoFire/Implementation/GFGeoHashQuery.h; sourceTree = "<group>"; };
-		D47ED512EA8E2C3A333BEFA711A6FA67 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		CBFE8F912B2E5874E059D78563EE3597 /* GFGeoHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFGeoHash.h; path = GeoFire/Implementation/GFGeoHash.h; sourceTree = "<group>"; };
+		CEBE95AB59828CC382D8CFE4E499B779 /* Pods_ArtCisco7_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5C0AC118D58B337B1CAE3503C9ABD2 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		D11D7D74728C222E72743CD2E688E909 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60EC36B7C697EE46D4D57F3489EB79F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D79627B8718A096DD5719119CFCE9915 /* GFQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GFQuery+Private.h"; path = "GeoFire/Implementation/GFQuery+Private.h"; sourceTree = "<group>"; };
+		D9FD1657C6057AD21871B129B510EACF /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DC1E7CD908FDED912B65B8A677209FAF /* GFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFQuery.h; path = GeoFire/API/GFQuery.h; sourceTree = "<group>"; };
-		E7187E3B4E264CFA20F19721FA9A5FDE /* GFBase32Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFBase32Utils.h; path = GeoFire/Implementation/GFBase32Utils.h; sourceTree = "<group>"; };
-		E74E52261747523698C3C9886078739C /* Pods_ArtCisco7_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArtCisco7_0UITests.framework; path = "Pods-ArtCisco7.0UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0F7A834235F97815133D52550A70D60 /* GeoFire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFire.h; path = GeoFire/API/GeoFire.h; sourceTree = "<group>"; };
-		F18599C22A0D7B51C24CB75831674FA3 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		DF0EE5E81B7697E8A81A6AF9B6E9E98B /* GFBase32Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFBase32Utils.m; path = GeoFire/Implementation/GFBase32Utils.m; sourceTree = "<group>"; };
+		E74E52261747523698C3C9886078739C /* Pods_ArtCisco7_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83DB9F7E4FCEEF85400ACFEEC85F3D8 /* GeoFire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFire.h; path = GeoFire/API/GeoFire.h; sourceTree = "<group>"; };
 		F454193142D8E9F9BE0995A6C2AD0C9A /* Pods-ArtCisco7.0Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArtCisco7.0Tests-resources.sh"; sourceTree = "<group>"; };
-		F68A7CFD5CC482CA699313DA475BEB6B /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		FE252A31D24DBD0014F7F5E51CAE6667 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF54E20C8D0FD6A20D7CA8230F1B08AA /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F724923035186B279F4A2A592FFCD77A /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		F87741AACEBDEB6612920707DC5333B9 /* GeoFire.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeoFire.m; path = GeoFire/Implementation/GeoFire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6149FE831E087E330092313C /* FirebaseDatabase.framework in Frameworks */,
 				A4B8FF2EE295200D0F243CAE79FEAD87 /* CoreLocation.framework in Frameworks */,
 				41BFDFB38907347672A557E5A13F15D0 /* Foundation.framework in Frameworks */,
 			);
@@ -161,47 +163,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F7CD7BA7883AEF2B92A14AA840435C4 /* Frameworks */ = {
+		07EEC7F06273414ED2BB5BA4CF50C6C4 /* GoogleUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				9140DC7482FF93EFEC168D158FAEEAA9 /* FirebaseStorage.framework */,
+				13C248805A69222B4B3633C5BE456E27 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		0DE0F1BFBE80076C97E74ED6AF22A61B /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				20C07ECB8C8FD39E2DBE2ADB6E760319 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		13C248805A69222B4B3633C5BE456E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414C799855BB40758A35B8E2D7498D69 /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		130EB25160DD595BE4FBCF7E7F7946C2 /* Frameworks */ = {
+		16808786606884212A6B471A665B1F7A /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				F26A478F74AC334E15CAC81FE2426E7E /* Core */,
+				6D0F1FF5464A4C6D114372A2FDDE365C /* Frameworks */,
+				444C5F44E92993A81C958B5EB72F76DA /* Resources */,
 			);
-			name = Firebase;
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		08C6AA6029F0BF4EEC75EF58E92750DD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0ECEAE03CCDD8634EF5B0211A4CB487 /* GoogleInterchangeUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		129B6577904BE3DD4CF84FF2D6EB8F8C /* FirebaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				E9D381DEFA27D46D931C36F1AEC9463B /* Frameworks */,
-			);
-			name = FirebaseCore;
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		154A2851FA01C88AD32A147B0A3D50C8 /* GoogleNetworkingUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				8059FC5429B8F00DABE3A5F528A47A2E /* Frameworks */,
-			);
-			name = GoogleNetworkingUtilities;
-			path = GoogleNetworkingUtilities;
+			name = Maps;
 			sourceTree = "<group>";
 		};
 		17D811E23456D5DD79A223DAFBAE8E7F /* Pods-ArtCisco7.0Tests */ = {
@@ -222,6 +214,14 @@
 			path = "Target Support Files/Pods-ArtCisco7.0Tests";
 			sourceTree = "<group>";
 		};
+		1914EB70E5AE1D2E04068E54F9E931A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9A0DCA9A9C93F739E1346BCB3D8FE50 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		1D6EA5206A026F078244AE1E0858A870 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,71 +232,91 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2FAFCB3A9BFBBA0CC7A9A2E8B3AF1AC5 /* GeoFire */ = {
+		20C07ECB8C8FD39E2DBE2ADB6E760319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4EE215419A6D3D09E4FEF3627B5DD52 /* GeoFire.h */,
-				EFF8A7D4E05D68F344B99C1D572DA3DB /* GeoFire.m */,
-				E8F073336F48023C4E46A07E2C153CB1 /* GeoFire+Private.h */,
-				9090C7B49A43A3218F60CD27081DCE16 /* GFBase32Utils.h */,
-				E19D99A3674C595DCED198F92BC9EB7C /* GFBase32Utils.m */,
-				43C98B3A159DAA76C0AEE3CD2310FE72 /* GFCircleQuery.h */,
-				05946CD210A520DA0E5EAEE270D08724 /* GFGeoHash.h */,
-				B5881E619BE1E92E8D5AFA5A085B0A82 /* GFGeoHash.m */,
-				B57237FEC95116F79ABD308DCF1836FE /* GFGeoHashQuery.h */,
-				F12AF634FF5B437F9F0C6B31007FD1C8 /* GFGeoHashQuery.m */,
-				994F62FA48760DE3DF78F65AE0029A97 /* GFQuery.h */,
-				C7E35A57689ECACB88575F837FC81EB5 /* GFQuery.m */,
-				943E07F9375A47C933375D932ACAD567 /* GFQuery+Private.h */,
-				AEBFA81231369BD04B9F4D82099E12F8 /* GFRegionQuery.h */,
-				6E089B4479237A5A87FC02E099EA3C45 /* Support Files */,
-			);
-			path = GeoFire;
-			sourceTree = "<group>";
-		};
-		38EFBEE0F53B5995107B36F4C68EC0DB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C58E964F52382910E5547B1E2AF8EB56 /* FirebaseAuth.framework */,
+				433F777001264EB1D2FAE9B107B45CDD /* FirebaseAuth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3C326D86698A0DEADBE680F1ECE2D37B /* FirebaseDatabase */ = {
+		3073938FC57DA38508508083D6E3EDCD /* GeoFire */ = {
 			isa = PBXGroup;
 			children = (
-				F0C6C631038DCCD61477FBD21326FF7C /* Frameworks */,
+				E83DB9F7E4FCEEF85400ACFEEC85F3D8 /* GeoFire.h */,
+				F87741AACEBDEB6612920707DC5333B9 /* GeoFire.m */,
+				2863331581462BDE221199DF3EF5F773 /* GeoFire+Private.h */,
+				C84F2D697E7A6D3910578440E230345D /* GFBase32Utils.h */,
+				DF0EE5E81B7697E8A81A6AF9B6E9E98B /* GFBase32Utils.m */,
+				47CC0942C68D1D8786B237E57D7CF98E /* GFCircleQuery.h */,
+				CBFE8F912B2E5874E059D78563EE3597 /* GFGeoHash.h */,
+				2FAC2A893AE58956A5DBB4A4A67DC437 /* GFGeoHash.m */,
+				54269390D0FF034C3F2A47137C83F251 /* GFGeoHashQuery.h */,
+				2D55A0F3F733DB1DE72D307678E1C655 /* GFGeoHashQuery.m */,
+				71DACB40E1193DABB4E5E218A4FB7A3A /* GFQuery.h */,
+				7F211C45F69A4CD84FD66D02824A0FBB /* GFQuery.m */,
+				93425B9AB4AD6F32F895D6D7B4C306D4 /* GFQuery+Private.h */,
+				B7C7DAEE65E53A010EF0A64A07AAECAF /* GFRegionQuery.h */,
+				B9E8766BF9C10C6C6497A7B2EE17389D /* Support Files */,
 			);
-			name = FirebaseDatabase;
-			path = FirebaseDatabase;
+			path = GeoFire;
 			sourceTree = "<group>";
 		};
-		3DF8C831CF0AEFBE4560FF88BB5E4B25 /* GoogleInterchangeUtilities */ = {
+		30B5C295B4ED684466C7D4340CA8275C /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				8AEA96B4EE21EEAF7AA93C581606BD35 /* Frameworks */,
+				E3C1F5F80B544962D43F7C53611D8908 /* Frameworks */,
 			);
-			name = GoogleInterchangeUtilities;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		36600627F24D0FE2DC55D7FA1C3ECA84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA6574ABDEE7CDC8C053229F07AF812 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38FBB7C5E76A7AD4BAA7B48DD3318BC1 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				6566A09CF3005FBF9DF894C85D0FCD02 /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		3C57305BF14D6EA66E6620042B847B5E /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5D7DAF05E01A2F1894EECACE72B585B5 /* Frameworks */,
+			);
 			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
-		430124DDD76441ED3A180DFD1F8AF2EC /* Pods */ = {
+		3E32E15EB16D0870BD9D49CA4F6F5058 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				80DAD4C9B47F35ACF30D797C8E2C87A1 /* Firebase */,
-				4F8FC0E39A7B48B78DBC50A914DFE8CB /* FirebaseAnalytics */,
-				86F0BB6E43D870CA84F183F9C8EBFA42 /* FirebaseAuth */,
-				BA3BED14DC95DEFB38FF0D64CC59D0AC /* FirebaseCore */,
-				3C326D86698A0DEADBE680F1ECE2D37B /* FirebaseDatabase */,
-				A1C63B552C6063ACFD42BFA701DD5C4A /* FirebaseInstanceID */,
-				D253A90C9E3BDB36B184431338E5D033 /* FirebaseStorage */,
-				2FAFCB3A9BFBBA0CC7A9A2E8B3AF1AC5 /* GeoFire */,
-				3DF8C831CF0AEFBE4560FF88BB5E4B25 /* GoogleInterchangeUtilities */,
-				6DEE77D997186198C4A281D4D8B2B045 /* GoogleNetworkingUtilities */,
-				F430AF98C3E6C6F60C446A7C58677DE7 /* GoogleSymbolUtilities */,
-				E346F2A8B0A9937C1009C2600ED40922 /* GoogleUtilities */,
+				0C09CD1EF378CA5DF442C5CBF3DFC74D /* FIRInstanceID.h */,
+				42F7A05C17906BC1BF7400F90C99204A /* Frameworks */,
 			);
-			name = Pods;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		3F360118D7C51080B28A92FE546EDD53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A25469C6B078CB707800B61D75E897E /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42F7A05C17906BC1BF7400F90C99204A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C0AC118D58B337B1CAE3503C9ABD2 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -305,6 +325,14 @@
 				98FD2B6FC84ACABD4CB3E089F393E8B1 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		444C5F44E92993A81C958B5EB72F76DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62E9FB8D5162BE9E47197CF3E9E80BDD /* GoogleMaps.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		5479B70783BBD9448493D68AE30925C4 /* Pods-ArtCisco7.0 */ = {
@@ -325,42 +353,75 @@
 			path = "Target Support Files/Pods-ArtCisco7.0";
 			sourceTree = "<group>";
 		};
-		6A4C5E876AAEB23DD2CBB6B184BC4EB2 /* Frameworks */ = {
+		5D7DAF05E01A2F1894EECACE72B585B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF54E20C8D0FD6A20D7CA8230F1B08AA /* FirebaseAnalytics.framework */,
+				A1BBC5751FAAB5B3412EF55F9C3CAA9F /* GoogleInterchangeUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6DEE77D997186198C4A281D4D8B2B045 /* GoogleNetworkingUtilities */ = {
+		614FE2F11E4FBF179D0B2C36025EAFA5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				130EB25160DD595BE4FBCF7E7F7946C2 /* Frameworks */,
+				CDA047A2A2FBB34CA03062F1B0A48C72 /* Firebase */,
+				30B5C295B4ED684466C7D4340CA8275C /* FirebaseAnalytics */,
+				0DE0F1BFBE80076C97E74ED6AF22A61B /* FirebaseAuth */,
+				38FBB7C5E76A7AD4BAA7B48DD3318BC1 /* FirebaseCore */,
+				A328A67FCAD1E5766C45B54A9CDE8258 /* FirebaseDatabase */,
+				3E32E15EB16D0870BD9D49CA4F6F5058 /* FirebaseInstanceID */,
+				81500CB90FDCCB42F98E79262336B8E3 /* FirebaseStorage */,
+				3073938FC57DA38508508083D6E3EDCD /* GeoFire */,
+				3C57305BF14D6EA66E6620042B847B5E /* GoogleInterchangeUtilities */,
+				D3A28AA7D9CFF63ABCCA09283CE30BE4 /* GoogleMaps */,
+				CEE2092E9334D8BC464AC8DF6D9C9DCA /* GoogleNetworkingUtilities */,
+				7096CC64985B38DE8F725321B3454802 /* GooglePlaces */,
+				F90FCA4CFF78BE66B99FC626C21BCC80 /* GoogleSymbolUtilities */,
+				07EEC7F06273414ED2BB5BA4CF50C6C4 /* GoogleUtilities */,
 			);
-			path = GoogleNetworkingUtilities;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		6E089B4479237A5A87FC02E099EA3C45 /* Support Files */ = {
+		635E1E9C2AA4469ACF6B254A5904B0C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A23AE222BEACEDD1E51D3B6118EA8FFB /* GeoFire.modulemap */,
-				5C5C01F5483FBF67ED2B291754F5496E /* GeoFire.xcconfig */,
-				2C0E151E150721D2DE5E18D69AEE4593 /* GeoFire-dummy.m */,
-				A85326356443D70CEDD035D706CD9950 /* GeoFire-prefix.pch */,
-				318B72A7BECADAE81DFF11F9F82219DC /* GeoFire-umbrella.h */,
-				FE252A31D24DBD0014F7F5E51CAE6667 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GeoFire";
-			sourceTree = "<group>";
-		};
-		783D14AF64777C41A47B96113808BD97 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1809AC90A1F697C61D97F08713B1CC48 /* FirebaseCore.framework */,
+				F724923035186B279F4A2A592FFCD77A /* GoogleNetworkingUtilities.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6566A09CF3005FBF9DF894C85D0FCD02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860982AAC52E6AD178220667ADAB1817 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D0F1FF5464A4C6D114372A2FDDE365C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49EC28F4562AA328876F7A98042F4D79 /* GoogleMaps.framework */,
+				4EB8901F759FD4417F81DD8D9CFB9A66 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7096CC64985B38DE8F725321B3454802 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				D12E3BF0CF2BEAE1E9D3971EEC512044 /* Frameworks */,
+				1914EB70E5AE1D2E04068E54F9E931A9 /* Resources */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		76EE65A2D43454499F651904A90B31F9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B075BF2CF9D8C0A634628377DFFDCA41 /* Firebase.h */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -368,18 +429,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				430124DDD76441ED3A180DFD1F8AF2EC /* Pods */,
+				614FE2F11E4FBF179D0B2C36025EAFA5 /* Pods */,
 				8317477B0A76AE4711CAB17F110E164B /* Products */,
 				1D6EA5206A026F078244AE1E0858A870 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80DAD4C9B47F35ACF30D797C8E2C87A1 /* Firebase */ = {
+		81500CB90FDCCB42F98E79262336B8E3 /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				C3F08E39BB15E597D563940244EA4450 /* Core */,
+				36600627F24D0FE2DC55D7FA1C3ECA84 /* Frameworks */,
 			);
-			path = Firebase;
+			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
 		8317477B0A76AE4711CAB17F110E164B /* Products */ = {
@@ -393,33 +454,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86F0BB6E43D870CA84F183F9C8EBFA42 /* FirebaseAuth */ = {
-			isa = PBXGroup;
-			children = (
-				38EFBEE0F53B5995107B36F4C68EC0DB /* Frameworks */,
-			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		8AEA96B4EE21EEAF7AA93C581606BD35 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C817B839280158EB06E3EA6F090C5B01 /* GoogleInterchangeUtilities.framework */,
-			);
-			name = GoogleSymbolUtilities;
-			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		A1C63B552C6063ACFD42BFA701DD5C4A /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				769EF496F05F303C0424F621D1728A53 /* FIRInstanceID.h */,
-				AB2BE0CAA9B2B5736A44620DBE9A2213 /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
 		98FD2B6FC84ACABD4CB3E089F393E8B1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,47 +463,91 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A3038934D14244781F38C2D18EFE4B9C /* Frameworks */ = {
+		A328A67FCAD1E5766C45B54A9CDE8258 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				7D43984AD9AC0284FAB9C98E975E88DA /* FirebaseInstanceID.framework */,
+				D64516F04FAC280C08F00A1F914DC236 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		A528587C89EF4DA712B5325C5150202D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD1657C6057AD21871B129B510EACF /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BA3BED14DC95DEFB38FF0D64CC59D0AC /* FirebaseCore */ = {
+		B9E8766BF9C10C6C6497A7B2EE17389D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				783D14AF64777C41A47B96113808BD97 /* Frameworks */,
+				843A30C55C0824EF05A1BDA465B72C62 /* GeoFire.modulemap */,
+				AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */,
+				7A66F152ADA01FB0DBC8D4DB9A326E71 /* GeoFire-dummy.m */,
+				B6BE6A7845DC3F2B3C5BB72B2C82AB2A /* GeoFire-prefix.pch */,
+				858279D2BD1FE6F0EE9DBA54E17BC6EE /* GeoFire-umbrella.h */,
+				D11D7D74728C222E72743CD2E688E909 /* Info.plist */,
 			);
-			name = GoogleUtilities;
-			path = GoogleUtilities;
+			name = "Support Files";
+			path = "../Target Support Files/GeoFire";
 			sourceTree = "<group>";
 		};
-		C3F08E39BB15E597D563940244EA4450 /* Core */ = {
+		CDA047A2A2FBB34CA03062F1B0A48C72 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				F68A7CFD5CC482CA699313DA475BEB6B /* Firebase.h */,
+				76EE65A2D43454499F651904A90B31F9 /* Core */,
 			);
-			name = Core;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
-		D253A90C9E3BDB36B184431338E5D033 /* FirebaseStorage */ = {
+		CEE2092E9334D8BC464AC8DF6D9C9DCA /* GoogleNetworkingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				0F7CD7BA7883AEF2B92A14AA840435C4 /* Frameworks */,
+				635E1E9C2AA4469ACF6B254A5904B0C6 /* Frameworks */,
 			);
-			name = FirebaseAnalytics;
-			path = FirebaseAnalytics;
+			path = GoogleNetworkingUtilities;
 			sourceTree = "<group>";
 		};
-		E0461E317CB06DB8309666A11B65DB22 /* Frameworks */ = {
+		D12E3BF0CF2BEAE1E9D3971EEC512044 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E1F81536DC1094EFC5AD18FB6EA5744 /* GoogleUtilities.framework */,
+				13A9C0024C838DB7D8455ABA7C8B04CF /* GooglePlaces.framework */,
 			);
-			name = GeoFire;
-			path = GeoFire;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38DEDB71A890B3E0A2B049560A68F93 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3F360118D7C51080B28A92FE546EDD53 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D3A28AA7D9CFF63ABCCA09283CE30BE4 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				D38DEDB71A890B3E0A2B049560A68F93 /* Base */,
+				16808786606884212A6B471A665B1F7A /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		D64516F04FAC280C08F00A1F914DC236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF943DFB130561BDEA0A4783828746C /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C1F5F80B544962D43F7C53611D8908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF28EC1276A148ABE0BFDDE6B982A0E /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E608E59D815D61EB5611B1DCE995341A /* Pods-ArtCisco7.0UITests */ = {
@@ -490,27 +568,10 @@
 			path = "Target Support Files/Pods-ArtCisco7.0UITests";
 			sourceTree = "<group>";
 		};
-		F0C6C631038DCCD61477FBD21326FF7C /* Frameworks */ = {
+		F90FCA4CFF78BE66B99FC626C21BCC80 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				7B2D0FE592F4DE024E0E76CEA03720FC /* Frameworks */,
-			);
-			name = FirebaseAuth;
-			path = FirebaseAuth;
-			sourceTree = "<group>";
-		};
-		E9D381DEFA27D46D931C36F1AEC9463B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				07D40ACC9288A5E8B02CEF3BBF282F61 /* FirebaseCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F430AF98C3E6C6F60C446A7C58677DE7 /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				53A933978A602D9A0B175A9288400F0D /* Frameworks */,
+				A528587C89EF4DA712B5325C5150202D /* Frameworks */,
 			);
 			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
@@ -817,7 +878,7 @@
 		};
 		A17F9BAF8EA6A4ECB071AA64A5A86777 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7EE200E399080C13C816744FA1FA691 /* GeoFire.xcconfig */;
+			baseConfigurationReference = AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -829,6 +890,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";
@@ -849,7 +914,7 @@
 		};
 		A41327DDC01510F89B39F271CBA6FE6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C5C01F5483FBF67ED2B291754F5496E /* GeoFire.xcconfig */;
+			baseConfigurationReference = AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -861,6 +926,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";

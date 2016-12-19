@@ -58,7 +58,15 @@ SOFTWARE.
 
 Copyright 2016 Google
 
+## GoogleMaps
+
+Copyright 2016 Google
+
 ## GoogleNetworkingUtilities
+
+Copyright 2016 Google
+
+## GooglePlaces
 
 Copyright 2016 Google
 
