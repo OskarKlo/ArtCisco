@@ -12,7 +12,7 @@ import FirebaseAuth
 import FBSDKLoginKit
 
 
-class ViewController: UIViewController,FBSDKLoginButtonDelegate {
+class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 
     
     @IBOutlet weak var passwordTextField: UITextField!
@@ -36,8 +36,21 @@ class ViewController: UIViewController,FBSDKLoginButtonDelegate {
     }
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
         print("User Logged In")
-        self.performSegue(withIdentifier: "signInUserSegue", sender: self)
+        
+        let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
+        FIRAuth.auth()?.signIn(with: credential) { (user, error) in
+            // ...
+            if let error = error {
+                // ...
+                return
+            }
+            else {
+                self.performSegue(withIdentifier: "signInUserSegue", sender: self)
 
+                
+            }
+
+    }
     }
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("User Logged Out")

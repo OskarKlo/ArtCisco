@@ -72,7 +72,7 @@
         <!--Item 2-->
         <scene sceneID="qIv-QJ-b0n">
             <objects>
-                <viewController id="y3e-LX-09H" sceneMemberID="viewController">
+                <viewController id="y3e-LX-09H" customClass="AddArtViewController" customModule="ArtCisco7_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yRP-Tl-5Rw"/>
                         <viewControllerLayoutGuide type="bottom" id="wYE-jn-DVk"/>
@@ -80,9 +80,48 @@
                     <view key="view" contentMode="scaleToFill" id="CCw-30-160">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zz8-VW-Ttv">
+                                <rect key="frame" x="151" y="72" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Photo"/>
+                                <connections>
+                                    <action selector="addPhotoAction:" destination="y3e-LX-09H" eventType="touchUpInside" id="i4c-rm-woH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JM5-TB-uAd">
+                                <rect key="frame" x="142" y="149" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Location"/>
+                                <connections>
+                                    <action selector="addLocationAction:" destination="y3e-LX-09H" eventType="touchUpInside" id="1Ye-wF-84s"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Artist Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fj3-jl-ZR5">
+                                <rect key="frame" x="139" y="261" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a27-JD-tLd">
+                                <rect key="frame" x="167" y="521" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="shareAction:" destination="y3e-LX-09H" eventType="touchUpInside" id="hIj-13-thr"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="NmX-IZ-dkL"/>
+                    <connections>
+                        <outlet property="addLocationButton" destination="JM5-TB-uAd" id="lFS-jZ-fs6"/>
+                        <outlet property="addPhotoButton" destination="Zz8-VW-Ttv" id="Bwm-oK-RDm"/>
+                        <outlet property="artistNameTextField" destination="Fj3-jl-ZR5" id="TWG-S5-B50"/>
+                        <outlet property="shareButton" destination="a27-JD-tLd" id="UPJ-9s-aoF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="neE-vk-Okd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
