@@ -11,28 +11,34 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class AppleMapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
-    
-    let locationManager = CLLocationManager()
+class AppleMapViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
+    
+    let manager = CLLocationManager()
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let location = locations[0]
+        
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
+        let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
+        let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
+        mapView.setRegion(region, animated: true)
+        
+        self.mapView.showsUserLocation = true
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.locationManager.delegate = self
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.requestWhenInUseAuthorization()
+        manager.startUpdatingLocation()
         
-        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        
-        self.locationManager.requestWhenInUseAuthorization()
-        
-        self.locationManager.startUpdatingLocation()
-    
     }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        
     }
-    
 }
