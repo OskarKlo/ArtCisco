@@ -27,6 +27,8 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate {
         
         self.mapView.showsUserLocation = true
         
+        print(location.speed)
+        
     }
     
     override func viewDidLoad() {
