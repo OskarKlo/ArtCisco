@@ -93,7 +93,7 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any])
     {
-        self.imageUrl          = info[UIImagePickerControllerReferenceURL] as? NSURL
+        self.imageUrl         = info[UIImagePickerControllerReferenceURL] as? NSURL
         let imageName         = imageUrl?.lastPathComponent
         let documentDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
         let photoURL          = NSURL(fileURLWithPath: documentDirectory)
