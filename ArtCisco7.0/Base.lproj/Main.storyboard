@@ -178,7 +178,7 @@
         <!--Item-->
         <scene sceneID="OHV-Xp-hyE">
             <objects>
-                <viewController storyboardIdentifier="LocationSearchTable" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cm8-AV-ftx" customClass="AppleMapViewController" customModule="ArtCisco7_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cm8-AV-ftx" customClass="AppleMapViewController" customModule="ArtCisco7_0" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rAI-ds-Boj"/>
                         <viewControllerLayoutGuide type="bottom" id="KFe-vq-Vic"/>
