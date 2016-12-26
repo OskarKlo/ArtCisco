@@ -21,6 +21,9 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     override func viewDidLoad() {
         //setup
     }
+    @IBAction func addingLocation(_ sender: Any) {
+        self.performSegue(withIdentifier: "addLocationSegue", sender: self)
+    }
     
     @IBAction func addPhotoAction(_ sender: Any) {
         //add photo action

@@ -15,6 +15,7 @@
 		6149FE821E087B030092313C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149FE811E087B030092313C /* MapViewController.swift */; };
 		6149FE851E0970940092313C /* AppleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149FE841E0970940092313C /* AppleMapViewController.swift */; };
 		614C7D0E1E0712530027161B /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614C7D0D1E0712530027161B /* FirebaseDatabase.framework */; };
+		6199935B1E11D9DE009A4C39 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6199935A1E11D9DE009A4C39 /* AddLocationViewController.swift */; };
 		61BC1E211E04CDD000AB3752 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */; };
 		61EA10891E05ABA200210503 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA10881E05ABA200210503 /* FBSDKLoginKit.framework */; };
 		61EA108B1E05ABA900210503 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EA108A1E05ABA900210503 /* FBSDKCoreKit.framework */; };
@@ -59,6 +60,7 @@
 		6149FE811E087B030092313C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
 		6149FE841E0970940092313C /* AppleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMapViewController.swift; sourceTree = "<group>"; };
 		614C7D0D1E0712530027161B /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		6199935A1E11D9DE009A4C39 /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
 		61BC1E201E04CDD000AB3752 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		61EA10881E05ABA200210503 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.18.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		61EA108A1E05ABA900210503 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.18.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				51FB4D5C1E06302300E4B1D1 /* ArtCisco7.0-Bridging-Header.h */,
 				51929BA01E04C63100F1C208 /* GoogleService-Info.plist */,
 				61FDB0721E01E0DE0081A820 /* Main.storyboard */,
+				6199935A1E11D9DE009A4C39 /* AddLocationViewController.swift */,
 				6149FE841E0970940092313C /* AppleMapViewController.swift */,
 				6149FE811E087B030092313C /* MapViewController.swift */,
 				51F0FD4D1E07503D0002E99F /* AddArtViewController.swift */,
@@ -494,6 +497,7 @@
 				61FDB0771E01E0DE0081A820 /* ArtCisco7_0.xcdatamodeld in Sources */,
 				6149FE821E087B030092313C /* MapViewController.swift in Sources */,
 				61FDB0711E01E0DE0081A820 /* ViewController.swift in Sources */,
+				6199935B1E11D9DE009A4C39 /* AddLocationViewController.swift in Sources */,
 				51F0FD4E1E07503D0002E99F /* AddArtViewController.swift in Sources */,
 				61BC1E211E04CDD000AB3752 /* RegistrationViewController.swift in Sources */,
 				6149FE851E0970940092313C /* AppleMapViewController.swift in Sources */,

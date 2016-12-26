@@ -1,8 +1,8 @@
 //
-//  AppleMapViewController.swift
+//  AddLocationViewController.swift
 //  ArtCisco7.0
 //
-//  Created by Oskar on 12/20/16.
+//  Created by Oskar on 12/27/16.
 //  Copyright © 2016 Oskar/Jake. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDelegate {
+class AddLocationViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDelegate {
     var searchController:UISearchController!
     var annotation:MKAnnotation!
     var localSearchRequest:MKLocalSearchRequest!
@@ -21,6 +21,10 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISea
     var pointAnnotation:MKPointAnnotation!
     var pinAnnotationView:MKPinAnnotationView!
     
+    @IBAction func cancelLocationAdd(_ sender: Any) {
+        self.performSegue(withIdentifier: "cancelLocationAddSegue", sender: self)
+    }
+    
     @IBAction func showSearchBar(_ sender: Any) {
         searchController = UISearchController(searchResultsController: nil)
         searchController.hidesNavigationBarDuringPresentation = false
@@ -28,7 +32,7 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISea
         present(searchController, animated: true, completion: nil)
     }
     
-    @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet weak var mapPreview: MKMapView!
     
     let manager = CLLocationManager()
     
@@ -38,9 +42,9 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISea
         let span:MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
         let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
         let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
-        mapView.setRegion(region, animated: true)
+        mapPreview.setRegion(region, animated: true)
         
-        self.mapView.showsUserLocation = true
+        self.mapPreview.showsUserLocation = true
         
         print(location.speed)
         
@@ -54,13 +58,6 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISea
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()
         
-        // Sample pin
-        let newYorkLocation = CLLocationCoordinate2DMake(40.730872, -74.003066) 
-        let dropPin = MKPointAnnotation()
-        dropPin.coordinate = newYorkLocation
-        dropPin.title = "New York City"
-        mapView.addAnnotation(dropPin)
-        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -69,9 +66,9 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISea
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
         searchBar.resignFirstResponder()
         dismiss(animated: true, completion: nil)
-        if self.mapView.annotations.count != 0{
-            annotation = self.mapView.annotations[0]
-            self.mapView.removeAnnotation(annotation)
+        if self.mapPreview.annotations.count != 0{
+            annotation = self.mapPreview.annotations[0]
+            self.mapPreview.removeAnnotation(annotation)
         }
         localSearchRequest = MKLocalSearchRequest()
         localSearchRequest.naturalLanguageQuery = searchBar.text
@@ -90,8 +87,8 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISea
             
             
             self.pinAnnotationView = MKPinAnnotationView(annotation: self.pointAnnotation, reuseIdentifier: nil)
-            self.mapView.centerCoordinate = self.pointAnnotation.coordinate
-            self.mapView.addAnnotation(self.pinAnnotationView.annotation!)
+            self.mapPreview.centerCoordinate = self.pointAnnotation.coordinate
+            self.mapPreview.addAnnotation(self.pinAnnotationView.annotation!)
         }
     }
 }
