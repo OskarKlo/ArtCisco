@@ -31,6 +31,17 @@ class AddLocationViewController: UIViewController, CLLocationManagerDelegate, UI
         self.searchController.searchBar.delegate = self
         present(searchController, animated: true, completion: nil)
     }
+    @IBAction func addPin(_ sender: UILongPressGestureRecognizer) {
+        let location = sender.location(in: self.mapPreview)
+        let locCoord = self.mapPreview.convert(location, toCoordinateFrom: self.mapPreview)
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = locCoord
+        annotation.title = "StreetArt"
+        annotation.subtitle = "Location of Art"
+        
+        self.mapPreview.removeAnnotations(mapPreview.annotations)
+        self.mapPreview.addAnnotation(annotation)
+    }
     
     @IBOutlet weak var mapPreview: MKMapView!
     
