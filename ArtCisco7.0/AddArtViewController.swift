@@ -10,6 +10,9 @@ import Foundation
 import UIKit
 import Firebase
 import FirebaseAuth
+import CoreLocation
+import MapKit
+import LocationPicker
 
 class AddArtViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     @IBOutlet weak var addPhotoButton: UIButton!
@@ -22,11 +25,10 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     override func viewDidLoad() {
         //setup
         imagePicker.delegate = self
+        
 
     }
-    @IBAction func addingLocation(_ sender: Any) {
-        self.performSegue(withIdentifier: "addLocationSegue", sender: self)
-    }
+
     
     @IBAction func addPhotoAction(_ sender: Any) {
         //add photo action
@@ -58,6 +60,8 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     }
     @IBAction func addLocationAction(_ sender: Any) {
         //add location
+        
+    
         
         
     }

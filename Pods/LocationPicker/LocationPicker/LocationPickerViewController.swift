@@ -10,37 +10,37 @@ import UIKit
 import MapKit
 import CoreLocation
 
-public class LocationPickerViewController: UIViewController {
+open class LocationPickerViewController: UIViewController {
 	struct CurrentLocationListener {
 		let once: Bool
 		let action: (CLLocation) -> ()
 	}
 	
-	public var completion: ((Location?) -> ())?
+	open var completion: ((Location?) -> ())?
 	
 	// region distance to be used for creation region when user selects place from search results
-	public var resultRegionDistance: CLLocationDistance = 600
+	open var resultRegionDistance: CLLocationDistance = 600
 	
 	/// default: true
-	public var showCurrentLocationButton = true
+	open var showCurrentLocationButton = true
 	
 	/// default: true
-	public var showCurrentLocationInitially = true
+	open var showCurrentLocationInitially = true
 	
 	/// see `region` property of `MKLocalSearchRequest`
 	/// default: false
-	public var useCurrentLocationAsHint = false
+	open var useCurrentLocationAsHint = false
 	
 	/// default: "Search or enter an address"
-	public var searchBarPlaceholder = "Search or enter an address"
+	open var searchBarPlaceholder = "Search or enter an address"
 	
 	/// default: "Search History"
-	public var searchHistoryLabel = "Search History"
+	open var searchHistoryLabel = "Search History"
     
     /// default: "Select"
-    public var selectButtonTitle = "Select"
+    open var selectButtonTitle = "Select"
 	
-	lazy public var currentLocationButtonBackground: UIColor = {
+	lazy open var currentLocationButtonBackground: UIColor = {
 		if let navigationBar = self.navigationController?.navigationBar,
 			let barTintColor = navigationBar.barTintColor {
 				return barTintColor
@@ -48,12 +48,12 @@ public class LocationPickerViewController: UIViewController {
 	}()
     
     /// default: .Minimal
-    public var searchBarStyle: UISearchBarStyle = .minimal
+    open var searchBarStyle: UISearchBarStyle = .minimal
 
 	/// default: .Default
-	public var statusBarStyle: UIStatusBarStyle = .default
+	open var statusBarStyle: UIStatusBarStyle = .default
 	
-	public var mapType: MKMapType = .hybrid {
+	open var mapType: MKMapType = .hybrid {
 		didSet {
 			if isViewLoaded {
 				mapView.mapType = mapType
@@ -61,7 +61,7 @@ public class LocationPickerViewController: UIViewController {
 		}
 	}
 	
-	public var location: Location? {
+	open var location: Location? {
 		didSet {
 			if isViewLoaded {
 				searchBar.text = location.flatMap({ $0.title }) ?? ""
@@ -112,7 +112,7 @@ public class LocationPickerViewController: UIViewController {
         let _ = searchController.view
 	}
 	
-	public override func loadView() {
+	open override func loadView() {
 		mapView = MKMapView(frame: UIScreen.main.bounds)
 		mapView.mapType = mapType
 		view = mapView
@@ -131,7 +131,7 @@ public class LocationPickerViewController: UIViewController {
 		}
 	}
 	
-	public override func viewDidLoad() {
+	open override func viewDidLoad() {
 		super.viewDidLoad()
 		
 		locationManager.delegate = self
@@ -155,13 +155,13 @@ public class LocationPickerViewController: UIViewController {
 		}
 	}
 
-	public override var preferredStatusBarStyle : UIStatusBarStyle {
+	open override var preferredStatusBarStyle : UIStatusBarStyle {
 		return statusBarStyle
 	}
 	
 	var presentedInitialLocation = false
 	
-	public override func viewDidLayoutSubviews() {
+	open override func viewDidLayoutSubviews() {
 		super.viewDidLayoutSubviews()
 		if let button = locationButton {
 			button.frame.origin = CGPoint(
