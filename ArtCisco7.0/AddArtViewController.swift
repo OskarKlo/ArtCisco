@@ -59,10 +59,11 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     @IBAction func addLocationAction(_ sender: Any) {
         //add location
         
+        
     }
     
     @IBAction func shareAction(_ sender: Any) {
-        
+        //share action
     
         
         

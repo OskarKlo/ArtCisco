@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LocationPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ArtCisco7.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>398A64282BD0675A2529DB0EA59067AE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3A3E62CD8A2B9279AC2B48614251DACF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5BCCAFFA7AD8C196C3DFA9FBD0743B68</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7242AC297675823F5AD1E27B184E9CFB</key>
+		<key>787F90EE7A798FA89036E7FD103A63FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B530C864359CB31F3B64B92725FA21F8</key>
+		<key>95971F9F58E66B362A762D83E10F4723</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5CC48BE6763ADB66FB37E7D0EC86D97</key>
+		<key>B530C864359CB31F3B64B92725FA21F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
