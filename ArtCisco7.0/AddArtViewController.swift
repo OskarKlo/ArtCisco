@@ -12,14 +12,17 @@ import Firebase
 import FirebaseAuth
 
 class AddArtViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-    var imageUrl = NSURL(string: "")
     @IBOutlet weak var addPhotoButton: UIButton!
     @IBOutlet weak var addLocationButton: UIButton!
     @IBOutlet weak var artistNameTextField: UITextField!
     
     @IBOutlet weak var shareButton: UIButton!
+    let imagePicker = UIImagePickerController()
+
     override func viewDidLoad() {
         //setup
+        imagePicker.delegate = self
+
     }
     @IBAction func addingLocation(_ sender: Any) {
         self.performSegue(withIdentifier: "addLocationSegue", sender: self)
@@ -60,59 +63,47 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     
     @IBAction func shareAction(_ sender: Any) {
         
-        //share
-        
-//        print(self.imageUrl!)
-//        //Firebase storage Ref
-//        let storage = FIRStorage.storage()
-//        let storageRef = storage.reference(forURL: "artcisco-f9157.appspot.com")
-//        let imagesRef = storageRef.child("images")
-//        
-//        
-//        //upload
-//        let uploadTask = imagesRef.putFile(self.imageUrl as! URL!, metadata: nil) { metadata, error in
-//            if let error = error {
-//                // Uh-oh, an error occurred!
-//            } else {
-//                // Metadata contains file metadata such as size, content-type, and download URL.
-//                let downloadURL = metadata!.downloadURL()
-//            }
-//        }
+    
         
         
     }
     
     //open camera roll for selection
     func selectPicture() {
-        let picker = UIImagePickerController()
-        picker.allowsEditing = true
-        picker.delegate = self
-        present(picker, animated: true)
+        imagePicker.allowsEditing = false
+        imagePicker.sourceType = .photoLibrary
+        
+        present(imagePicker, animated: true, completion: nil)
     }
     
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        dismiss(animated: true)
-    }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any])
-    {
-        self.imageUrl         = info[UIImagePickerControllerReferenceURL] as? NSURL
-        let imageName         = imageUrl?.lastPathComponent
-        let documentDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
-        let photoURL          = NSURL(fileURLWithPath: documentDirectory)
-        let localPath         = photoURL.appendingPathComponent(imageName!)
-        let image             = info[UIImagePickerControllerOriginalImage]as! UIImage
-        let data              = UIImagePNGRepresentation(image)
+    public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+
         
-        do
-        {
-            try data?.write(to: localPath!, options: Data.WritingOptions.atomic)
+        // Get local file URLs
+        guard let image: UIImage = info[UIImagePickerControllerOriginalImage] as? UIImage else { return }
+        let imageData = UIImagePNGRepresentation(image)!
+        guard let imageURL: NSURL = info[UIImagePickerControllerReferenceURL] as? NSURL else { return }
+        
+        // Get a reference to the location where we'll store our photos
+        let storage = FIRStorage.storage()
+        let photosRef = storage.reference(forURL: "gs://artcisco-f9157.appspot.com").child("art_photos")
+        
+        // Get a reference to store the file at chat_photos/<FILENAME>
+        let photoRef = photosRef.child("\(NSUUID().uuidString).png")
+        // Upload file to Firebase Storage
+        let metadata = FIRStorageMetadata()
+        metadata.contentType = "image/png"
+        photoRef.put(imageData, metadata: metadata).observe(.success) { (snapshot) in
+            // When the image has successfully uploaded, we get it's download URL
+            let text = snapshot.metadata?.downloadURL()?.absoluteString
+            // Set the download URL to the message box, so that the user can send it to the database
+            print(text!)
         }
-        catch
-        {
-            // Catch exception here and act accordingly
         }
         
-        self.dismiss(animated: true, completion: nil);
+        // Clean up picker
+        dismiss(animated: true, completion: nil)
     }
 }
