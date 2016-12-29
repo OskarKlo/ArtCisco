@@ -13,12 +13,14 @@ import FirebaseAuth
 import CoreLocation
 import MapKit
 import LocationPicker
+import GeoFire
 
 class AddArtViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     @IBOutlet weak var addPhotoButton: UIButton!
     @IBOutlet weak var addLocationButton: UIButton!
     @IBOutlet weak var artistNameTextField: UITextField!
     var link = ""
+   
     @IBOutlet weak var locationNameLabel: UILabel!
     @IBOutlet weak var shareButton: UIButton!
     let imagePicker = UIImagePickerController()
@@ -90,6 +92,27 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
         
         print(self.link)
         print(self.artistNameTextField.text!)
+        
+        //save to firebase
+        var ref: FIRDatabaseReference!
+        ref = FIRDatabase.database().reference()
+        let geofireRef = FIRDatabase.database().reference().child("locations")
+        let geoFire = GeoFire(firebaseRef: geofireRef)
+        
+        //get key
+        let key = ref.child("artwork").childByAutoId().key
+
+        
+        ref.child("artwork").child(key).setValue(["image_url": self.link, "artist_name": self.artistNameTextField.text!])
+        geoFire?.setLocation(CLLocation(latitude: (self.location?.coordinate.latitude)!, longitude: (self.location?.coordinate.longitude)!), forKey: key) { (error) in
+            if (error != nil) {
+                print("An error occured: \(error)")
+            } else {
+                print("Saved location successfully!")
+            }
+        }
+
+
         
         
         

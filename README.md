@@ -6,3 +6,4 @@
 -Change entry point to view that checks if user is already logged in with FB, etc. <br>
 -Fix FB Login Button placement<br>
 <s>-Link FB Account to firebase using FB auth token</s> <br>
+-Switch main map back from Google Maps<br>
