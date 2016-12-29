@@ -18,10 +18,26 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     @IBOutlet weak var addPhotoButton: UIButton!
     @IBOutlet weak var addLocationButton: UIButton!
     @IBOutlet weak var artistNameTextField: UITextField!
-    
+    var link = ""
+    @IBOutlet weak var locationNameLabel: UILabel!
     @IBOutlet weak var shareButton: UIButton!
     let imagePicker = UIImagePickerController()
-
+    var location: Location? {
+        didSet {
+            locationNameLabel.text = location.flatMap({ $0.title }) ?? "No location selected"
+        }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "LocationPicker" {
+            let locationPicker = segue.destination as! LocationPickerViewController
+            locationPicker.location = location
+            locationPicker.showCurrentLocationButton = true
+            locationPicker.useCurrentLocationAsHint = true
+            locationPicker.showCurrentLocationInitially = true
+            
+            locationPicker.completion = { self.location = $0 }
+        }
+    }
     override func viewDidLoad() {
         //setup
         imagePicker.delegate = self
@@ -68,7 +84,14 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     
     @IBAction func shareAction(_ sender: Any) {
         //share action
-    
+        
+        print(self.location?.coordinate.latitude)
+        print(self.location?.coordinate.longitude)
+        
+        print(self.link)
+        print(self.artistNameTextField.text!)
+        
+        
         
         
     }
@@ -102,9 +125,9 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
         metadata.contentType = "image/png"
         photoRef.put(imageData, metadata: metadata).observe(.success) { (snapshot) in
             // When the image has successfully uploaded, we get it's download URL
-            let text = snapshot.metadata?.downloadURL()?.absoluteString
+             self.link = (snapshot.metadata?.downloadURL()?.absoluteString)!
             // Set the download URL to the message box, so that the user can send it to the database
-            print(text!)
+            print(self.link)
         }
         }
         

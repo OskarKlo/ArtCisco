@@ -142,6 +142,13 @@
                                     <action selector="shareAction:" destination="y3e-LX-09H" eventType="touchUpInside" id="hIj-13-thr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No location selected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkF-PF-uxA">
+                                <rect key="frame" x="109" y="181" width="157" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -150,6 +157,7 @@
                         <outlet property="addLocationButton" destination="JM5-TB-uAd" id="lFS-jZ-fs6"/>
                         <outlet property="addPhotoButton" destination="Zz8-VW-Ttv" id="Bwm-oK-RDm"/>
                         <outlet property="artistNameTextField" destination="Fj3-jl-ZR5" id="TWG-S5-B50"/>
+                        <outlet property="locationNameLabel" destination="GkF-PF-uxA" id="HQO-N6-Hdx"/>
                         <outlet property="shareButton" destination="a27-JD-tLd" id="UPJ-9s-aoF"/>
                     </connections>
                 </viewController>
