@@ -12,7 +12,6 @@ import Firebase
 import FirebaseAuth
 import CoreLocation
 import MapKit
-import LocationPicker
 import GeoFire
 
 class AddArtViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
@@ -24,26 +23,10 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     @IBOutlet weak var locationNameLabel: UILabel!
     @IBOutlet weak var shareButton: UIButton!
     let imagePicker = UIImagePickerController()
-    var location: Location? {
-        didSet {
-            locationNameLabel.text = location.flatMap({ $0.title }) ?? "No location selected"
-        }
-    }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "LocationPicker" {
-            let locationPicker = segue.destination as! LocationPickerViewController
-            locationPicker.location = location
-            locationPicker.showCurrentLocationButton = true
-            locationPicker.useCurrentLocationAsHint = true
-            locationPicker.showCurrentLocationInitially = true
-            
-            locationPicker.completion = { self.location = $0 }
-        }
-    }
+
     override func viewDidLoad() {
         //setup
         imagePicker.delegate = self
-        
 
     }
 
@@ -87,8 +70,7 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
     @IBAction func shareAction(_ sender: Any) {
         //share action
         
-        print(self.location?.coordinate.latitude)
-        print(self.location?.coordinate.longitude)
+        //Missing the Location Printing
         
         print(self.link)
         print(self.artistNameTextField.text!)
@@ -104,16 +86,8 @@ class AddArtViewController: UIViewController, UINavigationControllerDelegate, UI
 
         
         ref.child("artwork").child(key).setValue(["image_url": self.link, "artist_name": self.artistNameTextField.text!])
-        geoFire?.setLocation(CLLocation(latitude: (self.location?.coordinate.latitude)!, longitude: (self.location?.coordinate.longitude)!), forKey: key) { (error) in
-            if (error != nil) {
-                print("An error occured: \(error)")
-            } else {
-                print("Saved location successfully!")
-            }
-        }
 
-
-        
+        //Missing the GeoFire link to the LocationPicker
         
         
         

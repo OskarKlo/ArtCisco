@@ -15,7 +15,6 @@ target 'ArtCisco7.0' do
   pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
   pod 'GoogleMaps'
   pod 'GooglePlaces'
-  pod 'LocationPicker'
    
 target 'ArtCisco7.0Tests' do
     inherit! :search_paths
