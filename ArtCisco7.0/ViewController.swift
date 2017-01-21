@@ -27,7 +27,6 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         self.loginButton.center = self.view.center
         self.loginButton.readPermissions = ["public_profile", "email", "user_friends"]
         self.loginButton.delegate = self;
-        self.view.addSubview(loginButton)
         
     }
     

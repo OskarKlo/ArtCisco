@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B219597D666CA3514CA9C5AF21BDFEF /* Pods-ArtCisco7.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB317F13F7B1331B860206713A2DF29 /* Pods-ArtCisco7.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2166735050EC3CA9D824700B620B063E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44634998610F2D086949FCEE0406D66 /* CoreLocation.framework */; };
-		29731F92555225566D2388BB660A1AAB /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2863331581462BDE221199DF3EF5F773 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ABCD61FD7F427BD3806C92902AB042E /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F211C45F69A4CD84FD66D02824A0FBB /* GFQuery.m */; };
-		3FC9C8BAAA1D0EE36E61A9BDCF340FDE /* GeoFire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 858279D2BD1FE6F0EE9DBA54E17BC6EE /* GeoFire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46690CB46DB6EB8079BBAB7C29CA4A76 /* Pods-ArtCisco7.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FF0D837350EFC7BBD23120A1CB866B /* Pods-ArtCisco7.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51138EF41E2E97F700832ECE /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF943DFB130561BDEA0A4783828746C /* FirebaseDatabase.framework */; };
-		5A21FF462006E707E56C3B3971893BD8 /* GeoFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F152ADA01FB0DBC8D4DB9A326E71 /* GeoFire-dummy.m */; };
-		5B1DEC12EEB3CEAB8C2602E04007DD12 /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 54269390D0FF034C3F2A47137C83F251 /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7440C9B87F0A2B9ADA528240D4EC2B69 /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFE8F912B2E5874E059D78563EE3597 /* GFGeoHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		746B890F1CECD5326ADD05028FC0FC5C /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC2A893AE58956A5DBB4A4A67DC437 /* GFGeoHash.m */; };
-		75F28DB38113DCB2D9121B7163C875CA /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D55A0F3F733DB1DE72D307678E1C655 /* GFGeoHashQuery.m */; };
-		7D6ED8A7FE3F654EEC63F134E383BBA7 /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C84F2D697E7A6D3910578440E230345D /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		827EC6BD7D28869429E2022361EBFCBF /* Pods-ArtCisco7.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789555B2D47E97D32186D38244BE86B1 /* Pods-ArtCisco7.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B8FEC707269B27CA0CD40A36B647186 /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC0942C68D1D8786B237E57D7CF98E /* GFCircleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4656AA37096D90C796730F3A274FA91 /* GeoFire.h in Headers */ = {isa = PBXBuildFile; fileRef = E83DB9F7E4FCEEF85400ACFEEC85F3D8 /* GeoFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFDF0A522350E3C70037667FF2F98785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */; };
-		C0335D1F224EB7A3CBF79079BA17AF31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */; };
-		C0984902025667E256E4C5ACAB3165C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */; };
-		C0BF4D1AEF6BCC04C87FCA0FD0E1136C /* Pods-ArtCisco7.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171B82D5E9B546208E07A7E049E280F2 /* Pods-ArtCisco7.0Tests-dummy.m */; };
-		CA5D63EFDBD5B43AC4BE3CC2D3DF2186 /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 93425B9AB4AD6F32F895D6D7B4C306D4 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF555B53E4D3782593F2A74F91EF0A41 /* Pods-ArtCisco7.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AF8002FE4986D420703D25C955006 /* Pods-ArtCisco7.0-dummy.m */; };
-		DAF5EBD10075A3A2A06EE22554FF5BF6 /* Pods-ArtCisco7.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A7A3C90B4056AA8B7343BDDFCACE1B /* Pods-ArtCisco7.0UITests-dummy.m */; };
-		E772F9F57312C064C87C25657F3C3A6A /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = F87741AACEBDEB6612920707DC5333B9 /* GeoFire.m */; };
-		EC4A2955A3BAAF97E097272642BDE9B9 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0EE5E81B7697E8A81A6AF9B6E9E98B /* GFBase32Utils.m */; };
-		EF789DF295CE1A7F96B7D8B698DEA36C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */; };
-		FB96A79AA75E84306AE7C36318712D0D /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DACB40E1193DABB4E5E218A4FB7A3A /* GFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEB3E1C8892B8A55BDBECEA29187DCAE /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C7DAEE65E53A010EF0A64A07AAECAF /* GFRegionQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0259BA3BE1CCA32AD58E2CD9142B5F04 /* Pods-ArtCisco7.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FF0D837350EFC7BBD23120A1CB866B /* Pods-ArtCisco7.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D374E1D2155CB08926E68C03571F546 /* GeoFire.h in Headers */ = {isa = PBXBuildFile; fileRef = E83DB9F7E4FCEEF85400ACFEEC85F3D8 /* GeoFire.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A62535380D33E366DBFC4637E68579B /* Pods-ArtCisco7.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789555B2D47E97D32186D38244BE86B1 /* Pods-ArtCisco7.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0EB9EC49F0382DB9CA0F32A234231C /* Pods-ArtCisco7.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB317F13F7B1331B860206713A2DF29 /* Pods-ArtCisco7.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AD422A9A44BEEE0C2FC610FDDE5B0D /* Pods-ArtCisco7.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A7A3C90B4056AA8B7343BDDFCACE1B /* Pods-ArtCisco7.0UITests-dummy.m */; };
+		41BFDFB38907347672A557E5A13F15D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
+		42C676E3E1D1639CCBB3889D6B2A6B39 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D55A0F3F733DB1DE72D307678E1C655 /* GFGeoHashQuery.m */; };
+		4F37EF3E5C96B1B2069CA279A85394C5 /* GFQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DACB40E1193DABB4E5E218A4FB7A3A /* GFQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		613300E91E33D15F00A39B92 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF943DFB130561BDEA0A4783828746C /* FirebaseDatabase.framework */; };
+		666F9731B283D4CEA0EF0A9502B6692B /* GFGeoHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFE8F912B2E5874E059D78563EE3597 /* GFGeoHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E1DF65BE6494CEA392DF77195EC464 /* GFCircleQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CC0942C68D1D8786B237E57D7CF98E /* GFCircleQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF298670D8C4FC634F55596592D631C /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC2A893AE58956A5DBB4A4A67DC437 /* GFGeoHash.m */; };
+		98F708E2D511D6CEEE215A0089372D58 /* GeoFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A66F152ADA01FB0DBC8D4DB9A326E71 /* GeoFire-dummy.m */; };
+		994A7F37ADD4BA3AB3D704495B41B21A /* GFGeoHashQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 54269390D0FF034C3F2A47137C83F251 /* GFGeoHashQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B8FF2EE295200D0F243CAE79FEAD87 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2FDE484E2AEE69B1F2C2CEFE2F99E2 /* CoreLocation.framework */; };
+		B17FCD858C05414310272DF641D0CF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
+		B2353D00D80B8330C7CECFD124C940D7 /* GeoFire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 858279D2BD1FE6F0EE9DBA54E17BC6EE /* GeoFire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27B2AD414D9182C27251865803BB63A /* Pods-ArtCisco7.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AF8002FE4986D420703D25C955006 /* Pods-ArtCisco7.0-dummy.m */; };
+		B885D95B893BAB0A2A4F88AA77F65391 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = F87741AACEBDEB6612920707DC5333B9 /* GeoFire.m */; };
+		C36D957BA9C8AAAC9E30CE2C93917E8E /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0EE5E81B7697E8A81A6AF9B6E9E98B /* GFBase32Utils.m */; };
+		D56EAE5C4E3062DA04C763376E9DC347 /* Pods-ArtCisco7.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171B82D5E9B546208E07A7E049E280F2 /* Pods-ArtCisco7.0Tests-dummy.m */; };
+		D81C96A302E02345E39111FCD16919EF /* GFRegionQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C7DAEE65E53A010EF0A64A07AAECAF /* GFRegionQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB862EB5E0ED79C65DA8A4BA12B71BDC /* GeoFire+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2863331581462BDE221199DF3EF5F773 /* GeoFire+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27B99D817512D5471653F12844FC4E2 /* GFBase32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = C84F2D697E7A6D3910578440E230345D /* GFBase32Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D7B1C8B30A15C261DC33E59815A6E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
+		E7B108802B05BF13531F8D484C144DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */; };
+		F2FB85BC9AF956E3C937E61A46079AAD /* GFQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 93425B9AB4AD6F32F895D6D7B4C306D4 /* GFQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F86A7266DB2921AABCADB8EACFF48F /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F211C45F69A4CD84FD66D02824A0FBB /* GFQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DE8C81429211306948DBFE112158F2F6 /* PBXContainerItemProxy */ = {
+		5501A3AA0A9E6D142EE754E250AD5569 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7908849B370564D3342427B24CCD92B7;
+			remoteGlobalIDString = 5BCCAFFA7AD8C196C3DFA9FBD0743B68;
 			remoteInfo = GeoFire;
 		};
 /* End PBXContainerItemProxy section */
@@ -57,6 +57,7 @@
 		13A9C0024C838DB7D8455ABA7C8B04CF /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
 		1607BAE558AB42A08863632B5825C07A /* Pods-ArtCisco7.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0.debug.xcconfig"; sourceTree = "<group>"; };
 		171B82D5E9B546208E07A7E049E280F2 /* Pods-ArtCisco7.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtCisco7.0Tests-dummy.m"; sourceTree = "<group>"; };
+		1C2FDE484E2AEE69B1F2C2CEFE2F99E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		1CF28EC1276A148ABE0BFDDE6B982A0E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		2863331581462BDE221199DF3EF5F773 /* GeoFire+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GeoFire+Private.h"; path = "GeoFire/Implementation/GeoFire+Private.h"; sourceTree = "<group>"; };
 		2D55A0F3F733DB1DE72D307678E1C655 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFGeoHashQuery.m; path = GeoFire/Implementation/GFGeoHashQuery.m; sourceTree = "<group>"; };
@@ -76,7 +77,6 @@
 		6B41970B10599CF8236BEC027F40EA5B /* Pods-ArtCisco7.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArtCisco7.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CF943DFB130561BDEA0A4783828746C /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		71DACB40E1193DABB4E5E218A4FB7A3A /* GFQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFQuery.h; path = GeoFire/API/GFQuery.h; sourceTree = "<group>"; };
-		77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		789555B2D47E97D32186D38244BE86B1 /* Pods-ArtCisco7.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArtCisco7.0UITests-umbrella.h"; sourceTree = "<group>"; };
 		7A3AF8002FE4986D420703D25C955006 /* Pods-ArtCisco7.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArtCisco7.0-dummy.m"; sourceTree = "<group>"; };
 		7A66F152ADA01FB0DBC8D4DB9A326E71 /* GeoFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoFire-dummy.m"; sourceTree = "<group>"; };
@@ -98,7 +98,6 @@
 		A110A0253B4A04D4DEF1AFC783EFADBC /* Pods-ArtCisco7.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ArtCisco7.0Tests.modulemap"; sourceTree = "<group>"; };
 		A1BBC5751FAAB5B3412EF55F9C3CAA9F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		A34B9DC7C74751231B0490554BB20032 /* Pods-ArtCisco7.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A44634998610F2D086949FCEE0406D66 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		A4896C4F5F8427DE4081445044290903 /* Pods-ArtCisco7.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArtCisco7.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9A0DCA9A9C93F739E1346BCB3D8FE50 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 		AADB4DCF8E73A64B34F5C298B2027DB1 /* Pods-ArtCisco7.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArtCisco7.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -117,6 +116,7 @@
 		D11D7D74728C222E72743CD2E688E909 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60EC36B7C697EE46D4D57F3489EB79F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9FD1657C6057AD21871B129B510EACF /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF0EE5E81B7697E8A81A6AF9B6E9E98B /* GFBase32Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFBase32Utils.m; path = GeoFire/Implementation/GFBase32Utils.m; sourceTree = "<group>"; };
 		E74E52261747523698C3C9886078739C /* Pods_ArtCisco7_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83DB9F7E4FCEEF85400ACFEEC85F3D8 /* GeoFire.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFire.h; path = GeoFire/API/GeoFire.h; sourceTree = "<group>"; };
@@ -126,37 +126,37 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C3A74E26847CE2D0A1332DA924AD3C8 /* Frameworks */ = {
+		041B2E66D279B069C6FF82EEE5CF06A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51138EF41E2E97F700832ECE /* FirebaseDatabase.framework in Frameworks */,
-				2166735050EC3CA9D824700B620B063E /* CoreLocation.framework in Frameworks */,
-				C0335D1F224EB7A3CBF79079BA17AF31 /* Foundation.framework in Frameworks */,
+				B17FCD858C05414310272DF641D0CF5A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		369351DF3CABF1116417687D4B419599 /* Frameworks */ = {
+		0F24405D37F7EBA24B8869F1414DF69F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDF0A522350E3C70037667FF2F98785 /* Foundation.framework in Frameworks */,
+				E3D7B1C8B30A15C261DC33E59815A6E9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFBC8085D370234C90414B90A6778A8C /* Frameworks */ = {
+		16B46851D6C7396F8BCEF50DF4E91F92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0984902025667E256E4C5ACAB3165C7 /* Foundation.framework in Frameworks */,
+				613300E91E33D15F00A39B92 /* FirebaseDatabase.framework in Frameworks */,
+				A4B8FF2EE295200D0F243CAE79FEAD87 /* CoreLocation.framework in Frameworks */,
+				41BFDFB38907347672A557E5A13F15D0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D39270DF63EC05ABB005B31B6B67E0B1 /* Frameworks */ = {
+		2321D7D590D64EEE8FF55519A1C64586 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF789DF295CE1A7F96B7D8B698DEA36C /* Foundation.framework in Frameworks */,
+				E7B108802B05BF13531F8D484C144DAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +322,7 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				452C4D672353D86A5CE7A15C4A984B2D /* iOS */,
+				98FD2B6FC84ACABD4CB3E089F393E8B1 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -333,15 +333,6 @@
 				62E9FB8D5162BE9E47197CF3E9E80BDD /* GoogleMaps.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		452C4D672353D86A5CE7A15C4A984B2D /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A44634998610F2D086949FCEE0406D66 /* CoreLocation.framework */,
-				77D1159654E476B277E1D950E9C0CBD4 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		5479B70783BBD9448493D68AE30925C4 /* Pods-ArtCisco7.0 */ = {
@@ -463,6 +454,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		98FD2B6FC84ACABD4CB3E089F393E8B1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C2FDE484E2AEE69B1F2C2CEFE2F99E2 /* CoreLocation.framework */,
+				DB9C937C1B6AA44E89DF7B64FB777B59 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		A328A67FCAD1E5766C45B54A9CDE8258 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,57 +579,92 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		144B9372690B82915DEEAC6202BD20B8 /* Headers */ = {
+		019466E8941CD146D85B93BD0AFC888B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				827EC6BD7D28869429E2022361EBFCBF /* Pods-ArtCisco7.0UITests-umbrella.h in Headers */,
+				0259BA3BE1CCA32AD58E2CD9142B5F04 /* Pods-ArtCisco7.0Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94330F83ED3F2178C3E743C52713B2A7 /* Headers */ = {
+		3CA0B3D6AA836F53291E753637D83427 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29731F92555225566D2388BB660A1AAB /* GeoFire+Private.h in Headers */,
-				3FC9C8BAAA1D0EE36E61A9BDCF340FDE /* GeoFire-umbrella.h in Headers */,
-				A4656AA37096D90C796730F3A274FA91 /* GeoFire.h in Headers */,
-				7D6ED8A7FE3F654EEC63F134E383BBA7 /* GFBase32Utils.h in Headers */,
-				9B8FEC707269B27CA0CD40A36B647186 /* GFCircleQuery.h in Headers */,
-				7440C9B87F0A2B9ADA528240D4EC2B69 /* GFGeoHash.h in Headers */,
-				5B1DEC12EEB3CEAB8C2602E04007DD12 /* GFGeoHashQuery.h in Headers */,
-				CA5D63EFDBD5B43AC4BE3CC2D3DF2186 /* GFQuery+Private.h in Headers */,
-				FB96A79AA75E84306AE7C36318712D0D /* GFQuery.h in Headers */,
-				FEB3E1C8892B8A55BDBECEA29187DCAE /* GFRegionQuery.h in Headers */,
+				2E0EB9EC49F0382DB9CA0F32A234231C /* Pods-ArtCisco7.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF15B42B36D08A3B59BA1FBB9AA304AB /* Headers */ = {
+		84ADFA9BD87604EE5320CC354C000E29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B219597D666CA3514CA9C5AF21BDFEF /* Pods-ArtCisco7.0-umbrella.h in Headers */,
+				DB862EB5E0ED79C65DA8A4BA12B71BDC /* GeoFire+Private.h in Headers */,
+				B2353D00D80B8330C7CECFD124C940D7 /* GeoFire-umbrella.h in Headers */,
+				0D374E1D2155CB08926E68C03571F546 /* GeoFire.h in Headers */,
+				E27B99D817512D5471653F12844FC4E2 /* GFBase32Utils.h in Headers */,
+				89E1DF65BE6494CEA392DF77195EC464 /* GFCircleQuery.h in Headers */,
+				666F9731B283D4CEA0EF0A9502B6692B /* GFGeoHash.h in Headers */,
+				994A7F37ADD4BA3AB3D704495B41B21A /* GFGeoHashQuery.h in Headers */,
+				F2FB85BC9AF956E3C937E61A46079AAD /* GFQuery+Private.h in Headers */,
+				4F37EF3E5C96B1B2069CA279A85394C5 /* GFQuery.h in Headers */,
+				D81C96A302E02345E39111FCD16919EF /* GFRegionQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA5A66C102124109A226AB5BE9629447 /* Headers */ = {
+		D6B23F27AA6229433FF16215EFD6FEFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46690CB46DB6EB8079BBAB7C29CA4A76 /* Pods-ArtCisco7.0Tests-umbrella.h in Headers */,
+				2A62535380D33E366DBFC4637E68579B /* Pods-ArtCisco7.0UITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7908849B370564D3342427B24CCD92B7 /* GeoFire */ = {
+		398A64282BD0675A2529DB0EA59067AE /* Pods-ArtCisco7.0Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED06398B681E114325F3F3C31F1B696F /* Build configuration list for PBXNativeTarget "GeoFire" */;
+			buildConfigurationList = 47D27E1541BF1C79EAC397C71262CBE5 /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0Tests" */;
 			buildPhases = (
-				16F67A0947C02901EC58F17F693A809C /* Sources */,
-				0C3A74E26847CE2D0A1332DA924AD3C8 /* Frameworks */,
-				94330F83ED3F2178C3E743C52713B2A7 /* Headers */,
+				F677332474F1AD5DDAC306B6947EA31F /* Sources */,
+				2321D7D590D64EEE8FF55519A1C64586 /* Frameworks */,
+				019466E8941CD146D85B93BD0AFC888B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ArtCisco7.0Tests";
+			productName = "Pods-ArtCisco7.0Tests";
+			productReference = 978FD65ACC22487B129DF3710461A8F8 /* Pods_ArtCisco7_0Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A3E62CD8A2B9279AC2B48614251DACF /* Pods-ArtCisco7.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EE9DA0100F4238BA0DEDD1367F4D92 /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0" */;
+			buildPhases = (
+				3F9EA80F7C34DBF7A59CBB34852B5911 /* Sources */,
+				0F24405D37F7EBA24B8869F1414DF69F /* Frameworks */,
+				3CA0B3D6AA836F53291E753637D83427 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D16C90E96F65232D3F21BBAB29A7FB25 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArtCisco7.0";
+			productName = "Pods-ArtCisco7.0";
+			productReference = CEBE95AB59828CC382D8CFE4E499B779 /* Pods_ArtCisco7_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BCCAFFA7AD8C196C3DFA9FBD0743B68 /* GeoFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E7507F6BED4EB1152439F873AEBBEA /* Build configuration list for PBXNativeTarget "GeoFire" */;
+			buildPhases = (
+				FAA383BD97D2DF456D31A5C53FACF929 /* Sources */,
+				16B46851D6C7396F8BCEF50DF4E91F92 /* Frameworks */,
+				84ADFA9BD87604EE5320CC354C000E29 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -640,13 +675,13 @@
 			productReference = 87683B3D1010692353B0F5DB2077CA64 /* GeoFire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B530C864359CB31F3B64B92725FA21F8 /* Pods-ArtCisco7.0UITests */ = {
+		7242AC297675823F5AD1E27B184E9CFB /* Pods-ArtCisco7.0UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A54A5EA953F73934EAAE71D75BAE46D /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0UITests" */;
+			buildConfigurationList = CC20A3F69DA26C868721FEFF3C5830EC /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0UITests" */;
 			buildPhases = (
-				5291449C878008934870FF7CFBC71659 /* Sources */,
-				AFBC8085D370234C90414B90A6778A8C /* Frameworks */,
-				144B9372690B82915DEEAC6202BD20B8 /* Headers */,
+				3F8CA9E58A53792BABF052392FC68E3D /* Sources */,
+				041B2E66D279B069C6FF82EEE5CF06A3 /* Frameworks */,
+				D6B23F27AA6229433FF16215EFD6FEFC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -655,41 +690,6 @@
 			name = "Pods-ArtCisco7.0UITests";
 			productName = "Pods-ArtCisco7.0UITests";
 			productReference = E74E52261747523698C3C9886078739C /* Pods_ArtCisco7_0UITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E5CC48BE6763ADB66FB37E7D0EC86D97 /* Pods-ArtCisco7.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5A935C85DF49D86B4AB1EE3886B55F8 /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0" */;
-			buildPhases = (
-				B3F35EE833005B957292B88C5E7F4220 /* Sources */,
-				369351DF3CABF1116417687D4B419599 /* Frameworks */,
-				BF15B42B36D08A3B59BA1FBB9AA304AB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4611CD5B8A149E65EB3044AC8C7385E9 /* PBXTargetDependency */,
-			);
-			name = "Pods-ArtCisco7.0";
-			productName = "Pods-ArtCisco7.0";
-			productReference = CEBE95AB59828CC382D8CFE4E499B779 /* Pods_ArtCisco7_0.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EB8825AE5692F4BB55A8E38AD319F264 /* Pods-ArtCisco7.0Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E16CCB027555584C3BA0FB2E6DEF64A /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0Tests" */;
-			buildPhases = (
-				475B8C9C2A97C3A432609235C8E90FCB /* Sources */,
-				D39270DF63EC05ABB005B31B6B67E0B1 /* Frameworks */,
-				CA5A66C102124109A226AB5BE9629447 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ArtCisco7.0Tests";
-			productName = "Pods-ArtCisco7.0Tests";
-			productReference = 978FD65ACC22487B129DF3710461A8F8 /* Pods_ArtCisco7_0Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -713,168 +713,71 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7908849B370564D3342427B24CCD92B7 /* GeoFire */,
-				E5CC48BE6763ADB66FB37E7D0EC86D97 /* Pods-ArtCisco7.0 */,
-				EB8825AE5692F4BB55A8E38AD319F264 /* Pods-ArtCisco7.0Tests */,
-				B530C864359CB31F3B64B92725FA21F8 /* Pods-ArtCisco7.0UITests */,
+				5BCCAFFA7AD8C196C3DFA9FBD0743B68 /* GeoFire */,
+				3A3E62CD8A2B9279AC2B48614251DACF /* Pods-ArtCisco7.0 */,
+				398A64282BD0675A2529DB0EA59067AE /* Pods-ArtCisco7.0Tests */,
+				7242AC297675823F5AD1E27B184E9CFB /* Pods-ArtCisco7.0UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16F67A0947C02901EC58F17F693A809C /* Sources */ = {
+		3F8CA9E58A53792BABF052392FC68E3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A21FF462006E707E56C3B3971893BD8 /* GeoFire-dummy.m in Sources */,
-				E772F9F57312C064C87C25657F3C3A6A /* GeoFire.m in Sources */,
-				EC4A2955A3BAAF97E097272642BDE9B9 /* GFBase32Utils.m in Sources */,
-				746B890F1CECD5326ADD05028FC0FC5C /* GFGeoHash.m in Sources */,
-				75F28DB38113DCB2D9121B7163C875CA /* GFGeoHashQuery.m in Sources */,
-				2ABCD61FD7F427BD3806C92902AB042E /* GFQuery.m in Sources */,
+				37AD422A9A44BEEE0C2FC610FDDE5B0D /* Pods-ArtCisco7.0UITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		475B8C9C2A97C3A432609235C8E90FCB /* Sources */ = {
+		3F9EA80F7C34DBF7A59CBB34852B5911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BF4D1AEF6BCC04C87FCA0FD0E1136C /* Pods-ArtCisco7.0Tests-dummy.m in Sources */,
+				B27B2AD414D9182C27251865803BB63A /* Pods-ArtCisco7.0-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5291449C878008934870FF7CFBC71659 /* Sources */ = {
+		F677332474F1AD5DDAC306B6947EA31F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAF5EBD10075A3A2A06EE22554FF5BF6 /* Pods-ArtCisco7.0UITests-dummy.m in Sources */,
+				D56EAE5C4E3062DA04C763376E9DC347 /* Pods-ArtCisco7.0Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3F35EE833005B957292B88C5E7F4220 /* Sources */ = {
+		FAA383BD97D2DF456D31A5C53FACF929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF555B53E4D3782593F2A74F91EF0A41 /* Pods-ArtCisco7.0-dummy.m in Sources */,
+				98F708E2D511D6CEEE215A0089372D58 /* GeoFire-dummy.m in Sources */,
+				B885D95B893BAB0A2A4F88AA77F65391 /* GeoFire.m in Sources */,
+				C36D957BA9C8AAAC9E30CE2C93917E8E /* GFBase32Utils.m in Sources */,
+				8DF298670D8C4FC634F55596592D631C /* GFGeoHash.m in Sources */,
+				42C676E3E1D1639CCBB3889D6B2A6B39 /* GFGeoHashQuery.m in Sources */,
+				F9F86A7266DB2921AABCADB8EACFF48F /* GFQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4611CD5B8A149E65EB3044AC8C7385E9 /* PBXTargetDependency */ = {
+		D16C90E96F65232D3F21BBAB29A7FB25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GeoFire;
-			target = 7908849B370564D3342427B24CCD92B7 /* GeoFire */;
-			targetProxy = DE8C81429211306948DBFE112158F2F6 /* PBXContainerItemProxy */;
+			target = 5BCCAFFA7AD8C196C3DFA9FBD0743B68 /* GeoFire */;
+			targetProxy = 5501A3AA0A9E6D142EE754E250AD5569 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1AF8F15BEC037243174112D3A26B52E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2F1023097103E8B00DBE2425CF5B2A0 /* Pods-ArtCisco7.0UITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ArtCisco7.0UITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ArtCisco7_0UITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		22A1DCE3C5999CCE7C7323BAB591FB7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B5CE7DBB78E8A750035514B2409F5B /* Pods-ArtCisco7.0Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ArtCisco7_0Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		30EA8025A571D996ED22E5F94CCCD39D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A34B9DC7C74751231B0490554BB20032 /* Pods-ArtCisco7.0Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ArtCisco7_0Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4EE4EE13CE357E6D5BD973AE1D953B55 /* Debug */ = {
+		023C14D1CF19BFBC63097A84454CAB1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4896C4F5F8427DE4081445044290903 /* Pods-ArtCisco7.0UITests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -903,44 +806,13 @@
 			};
 			name = Debug;
 		};
-		6C6B90D1ECA27A79327DA6896560A4B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GeoFire/GeoFire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GeoFire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7DE8910B57965DFF461708C9E04E9DFC /* Debug */ = {
+		0B91266BC86AB99D6205276B7BDA8A55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1607BAE558AB42A08863632B5825C07A /* Pods-ArtCisco7.0.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -969,11 +841,120 @@
 			};
 			name = Debug;
 		};
-		9F0CB08BF2515CCE0FBDBF51D61B02AF /* Release */ = {
+		76C465FEB4140ACD3C2542CCF286CBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34B9DC7C74751231B0490554BB20032 /* Pods-ArtCisco7.0Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArtCisco7_0Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A17F9BAF8EA6A4ECB071AA64A5A86777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoFire/GeoFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GeoFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A41327DDC01510F89B39F271CBA6FE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoFire/GeoFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GeoFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B89781FAE9F5429DD1050F04D3CB6BF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0B27083713E8DAB3AA0ACC6E62327FBA /* Pods-ArtCisco7.0.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1002,78 +983,42 @@
 			};
 			name = Release;
 		};
-		D560687C2EAA7604298B56AEE78343D9 /* Release */ = {
+		C319D4A219283190513A59E73DDEE72E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B5CE7DBB78E8A750035514B2409F5B /* Pods-ArtCisco7.0Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E038053FA7D94339D66B976E0D479887 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAEEF23E5DDF817BEE9A941244CDDB50 /* GeoFire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/FirebaseDatabase/Frameworks",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GeoFire/GeoFire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GeoFire/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GeoFire/GeoFire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GeoFire;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtCisco7.0Tests/Pods-ArtCisco7.0Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArtCisco7_0Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		F1CACC81189ECB1BB82CE47F73EBE3D1 /* Debug */ = {
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1091,6 +1036,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1110,19 +1056,95 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1BBB41CA0D7DFB841A4B5E9A4B4181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F1023097103E8B00DBE2425CF5B2A0 /* Pods-ArtCisco7.0UITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ArtCisco7.0UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ArtCisco7_0UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A54A5EA953F73934EAAE71D75BAE46D /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0UITests" */ = {
+		06EE9DA0100F4238BA0DEDD1367F4D92 /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EE4EE13CE357E6D5BD973AE1D953B55 /* Debug */,
-				1AF8F15BEC037243174112D3A26B52E4 /* Release */,
+				0B91266BC86AB99D6205276B7BDA8A55 /* Debug */,
+				B89781FAE9F5429DD1050F04D3CB6BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1130,35 +1152,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1CACC81189ECB1BB82CE47F73EBE3D1 /* Debug */,
-				D560687C2EAA7604298B56AEE78343D9 /* Release */,
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E16CCB027555584C3BA0FB2E6DEF64A /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0Tests" */ = {
+		47D27E1541BF1C79EAC397C71262CBE5 /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22A1DCE3C5999CCE7C7323BAB591FB7B /* Debug */,
-				30EA8025A571D996ED22E5F94CCCD39D /* Release */,
+				C319D4A219283190513A59E73DDEE72E /* Debug */,
+				76C465FEB4140ACD3C2542CCF286CBBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5A935C85DF49D86B4AB1EE3886B55F8 /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0" */ = {
+		52E7507F6BED4EB1152439F873AEBBEA /* Build configuration list for PBXNativeTarget "GeoFire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DE8910B57965DFF461708C9E04E9DFC /* Debug */,
-				9F0CB08BF2515CCE0FBDBF51D61B02AF /* Release */,
+				A17F9BAF8EA6A4ECB071AA64A5A86777 /* Debug */,
+				A41327DDC01510F89B39F271CBA6FE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED06398B681E114325F3F3C31F1B696F /* Build configuration list for PBXNativeTarget "GeoFire" */ = {
+		CC20A3F69DA26C868721FEFF3C5830EC /* Build configuration list for PBXNativeTarget "Pods-ArtCisco7.0UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C6B90D1ECA27A79327DA6896560A4B8 /* Debug */,
-				E038053FA7D94339D66B976E0D479887 /* Release */,
+				023C14D1CF19BFBC63097A84454CAB1B /* Debug */,
+				FC1BBB41CA0D7DFB841A4B5E9A4B4181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
