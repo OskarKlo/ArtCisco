@@ -124,7 +124,6 @@
                                 <state key="normal" title="Add Location"/>
                                 <connections>
                                     <action selector="addLocationAction:" destination="y3e-LX-09H" eventType="touchUpInside" id="1Ye-wF-84s"/>
-                                    <segue destination="7Sv-rX-Tax" kind="show" identifier="LocationPicker" id="WkM-S4-Erc"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Artist Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fj3-jl-ZR5">
@@ -159,11 +158,30 @@
                         <outlet property="artistNameTextField" destination="Fj3-jl-ZR5" id="TWG-S5-B50"/>
                         <outlet property="locationNameLabel" destination="GkF-PF-uxA" id="HQO-N6-Hdx"/>
                         <outlet property="shareButton" destination="a27-JD-tLd" id="UPJ-9s-aoF"/>
+                        <segue destination="RLt-tz-Id6" kind="show" identifier="locationPickerSegue" id="vVD-qv-0ow"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="neE-vk-Okd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2980" y="179.46026986506749"/>
+        </scene>
+        <!--Location View Controller-->
+        <scene sceneID="eGI-C1-lz7">
+            <objects>
+                <viewController id="RLt-tz-Id6" customClass="LocationViewController" customModule="ArtCisco7_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7ML-VC-5QF"/>
+                        <viewControllerLayoutGuide type="bottom" id="4lq-Dc-0o7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BsZ-M2-tI8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gbP-Of-QEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3802.4000000000001" y="556.37181409295351"/>
         </scene>
         <!--Item-->
         <scene sceneID="OHV-Xp-hyE">
@@ -211,24 +229,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zxq-aF-wDz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2766" y="-484"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="vCI-L9-hCJ">
-            <objects>
-                <viewController id="7Sv-rX-Tax" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uTc-Mt-h6M"/>
-                        <viewControllerLayoutGuide type="bottom" id="u1g-IE-NPL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YE1-kA-bzA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vki-Es-kUQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2766" y="905"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="y0v-8Y-a7q">

@@ -55,11 +55,11 @@ class AppleMapViewController: UIViewController, CLLocationManagerDelegate, UISea
         manager.startUpdatingLocation()
         
         // Sample pin
-        let newYorkLocation = CLLocationCoordinate2DMake(40.730872, -74.003066) 
-        let dropPin = MKPointAnnotation()
-        dropPin.coordinate = newYorkLocation
-        dropPin.title = "New York City"
-        mapView.addAnnotation(dropPin)
+      //  let newYorkLocation = CLLocationCoordinate2DMake(40.730872, -74.003066)
+      //  let dropPin = MKPointAnnotation()
+      //  dropPin.coordinate = newYorkLocation
+      //  dropPin.title = "New York City"
+      //  mapView.addAnnotation(dropPin)
         
     }
     override func didReceiveMemoryWarning() {

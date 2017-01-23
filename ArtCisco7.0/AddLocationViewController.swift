@@ -21,29 +21,14 @@ class AddLocationViewController: UIViewController, CLLocationManagerDelegate, UI
     var pointAnnotation:MKPointAnnotation!
     var pinAnnotationView:MKPinAnnotationView!
     
-    @IBAction func cancelLocationAdd(_ sender: Any) {
-        self.performSegue(withIdentifier: "cancelLocationAddSegue", sender: self)
-    }
-    
     @IBAction func showSearchBar(_ sender: Any) {
         searchController = UISearchController(searchResultsController: nil)
         searchController.hidesNavigationBarDuringPresentation = false
         self.searchController.searchBar.delegate = self
         present(searchController, animated: true, completion: nil)
     }
-    @IBAction func addPin(_ sender: UILongPressGestureRecognizer) {
-        let location = sender.location(in: self.mapPreview)
-        let locCoord = self.mapPreview.convert(location, toCoordinateFrom: self.mapPreview)
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = locCoord
-        annotation.title = "StreetArt"
-        annotation.subtitle = "Location of Art"
-        
-        self.mapPreview.removeAnnotations(mapPreview.annotations)
-        self.mapPreview.addAnnotation(annotation)
-    }
     
-    @IBOutlet weak var mapPreview: MKMapView!
+    @IBOutlet weak var mapView: MKMapView!
     
     let manager = CLLocationManager()
     
@@ -53,9 +38,9 @@ class AddLocationViewController: UIViewController, CLLocationManagerDelegate, UI
         let span:MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
         let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
         let region:MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
-        mapPreview.setRegion(region, animated: true)
+        mapView.setRegion(region, animated: true)
         
-        self.mapPreview.showsUserLocation = true
+        self.mapView.showsUserLocation = true
         
         print(location.speed)
         
@@ -69,6 +54,13 @@ class AddLocationViewController: UIViewController, CLLocationManagerDelegate, UI
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()
         
+        // Sample pin
+        //  let newYorkLocation = CLLocationCoordinate2DMake(40.730872, -74.003066)
+        //  let dropPin = MKPointAnnotation()
+        //  dropPin.coordinate = newYorkLocation
+        //  dropPin.title = "New York City"
+        //  mapView.addAnnotation(dropPin)
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -77,9 +69,9 @@ class AddLocationViewController: UIViewController, CLLocationManagerDelegate, UI
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
         searchBar.resignFirstResponder()
         dismiss(animated: true, completion: nil)
-        if self.mapPreview.annotations.count != 0{
-            annotation = self.mapPreview.annotations[0]
-            self.mapPreview.removeAnnotation(annotation)
+        if self.mapView.annotations.count != 0{
+            annotation = self.mapView.annotations[0]
+            self.mapView.removeAnnotation(annotation)
         }
         localSearchRequest = MKLocalSearchRequest()
         localSearchRequest.naturalLanguageQuery = searchBar.text
@@ -98,8 +90,8 @@ class AddLocationViewController: UIViewController, CLLocationManagerDelegate, UI
             
             
             self.pinAnnotationView = MKPinAnnotationView(annotation: self.pointAnnotation, reuseIdentifier: nil)
-            self.mapPreview.centerCoordinate = self.pointAnnotation.coordinate
-            self.mapPreview.addAnnotation(self.pinAnnotationView.annotation!)
+            self.mapView.centerCoordinate = self.pointAnnotation.coordinate
+            self.mapView.addAnnotation(self.pinAnnotationView.annotation!)
         }
     }
 }

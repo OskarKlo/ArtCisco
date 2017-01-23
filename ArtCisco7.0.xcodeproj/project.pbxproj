@@ -13,6 +13,7 @@
 		519B14461E146A0F00D7A142 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519B14451E146A0F00D7A142 /* CoreLocation.framework */; };
 		51F0FD4E1E07503D0002E99F /* AddArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F0FD4D1E07503D0002E99F /* AddArtViewController.swift */; };
 		57D66B3012D0B9DDBD27F4F8 /* Pods_ArtCisco7_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */; };
+		613300EB1E33D8DF00A39B92 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613300EA1E33D8DF00A39B92 /* LocationViewController.swift */; };
 		6149FE851E0970940092313C /* AppleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149FE841E0970940092313C /* AppleMapViewController.swift */; };
 		614C7D0E1E0712530027161B /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614C7D0D1E0712530027161B /* FirebaseDatabase.framework */; };
 		6199935B1E11D9DE009A4C39 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6199935A1E11D9DE009A4C39 /* AddLocationViewController.swift */; };
@@ -59,6 +60,7 @@
 		51FB4D5C1E06302300E4B1D1 /* ArtCisco7.0-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArtCisco7.0-Bridging-Header.h"; sourceTree = "<group>"; };
 		56A591E73D3AAAB34E71A5C1 /* Pods_ArtCisco7_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtCisco7_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		595886C490DF6BE75FC15B95 /* Pods-ArtCisco7.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtCisco7.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtCisco7.0UITests/Pods-ArtCisco7.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		613300EA1E33D8DF00A39B92 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		6149FE841E0970940092313C /* AppleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMapViewController.swift; sourceTree = "<group>"; };
 		614C7D0D1E0712530027161B /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		6199935A1E11D9DE009A4C39 /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				51FB4D5C1E06302300E4B1D1 /* ArtCisco7.0-Bridging-Header.h */,
 				51929BA01E04C63100F1C208 /* GoogleService-Info.plist */,
 				61FDB0721E01E0DE0081A820 /* Main.storyboard */,
+				613300EA1E33D8DF00A39B92 /* LocationViewController.swift */,
 				51F0FD4D1E07503D0002E99F /* AddArtViewController.swift */,
 				6199935A1E11D9DE009A4C39 /* AddLocationViewController.swift */,
 				6149FE841E0970940092313C /* AppleMapViewController.swift */,
@@ -507,6 +510,7 @@
 				61BC1E211E04CDD000AB3752 /* RegistrationViewController.swift in Sources */,
 				6149FE851E0970940092313C /* AppleMapViewController.swift in Sources */,
 				61FDB06F1E01E0DE0081A820 /* AppDelegate.swift in Sources */,
+				613300EB1E33D8DF00A39B92 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
